@@ -13,13 +13,17 @@ def cmp_with_name(name_, name):
     return name_ == name
 
 
+def naming(name):
+    return namer(cmp_with_name, name)
+
+
 def has_my_attr(tag, name):
     return tag.has_attr(name)
 
 
 def get_names(html):
     soup = bs4.BeautifulSoup(html, 'html.parser')
-    games_tag = soup.find_all(class_=namer(cmp_with_name, 'grid-list games-hover-boxes'))[0]
+    games_tag = soup.find_all(class_=naming('grid-list games-hover-boxes'))[0]
     games_tags = games_tag.find_all(namer(has_my_attr, 'data-game-name'))
     return [tag['data-game-name'] for tag in games_tags]
 
