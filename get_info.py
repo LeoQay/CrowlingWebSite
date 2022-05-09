@@ -1,8 +1,14 @@
 import sys
+from multiprocessing.dummy import Pool, Queue
 import urllib.request
 import requests
 import bs4
 import urllib.request as request
+import time
+
+
+def err(stat, what='error'):
+    print(f'Error: url: {stat["url"]}: with {what}', file=sys.stderr)
 
 
 def namer(func, name):
@@ -42,6 +48,8 @@ def get_name(stat, soup):
     dest = get_tag(soup, path)
     if dest is not None:
         stat['name'] = dest.get_text()
+    else:
+        err(stat, 'name')
 
 
 def get_image(stat, soup):
@@ -51,6 +59,8 @@ def get_image(stat, soup):
     tag = get_tag(soup, path)
     if tag is not None:
         stat['image'] = tag['src']
+    else:
+        err(stat, 'image')
 
 
 def get_market_url(stat, soup):
@@ -59,13 +69,14 @@ def get_market_url(stat, soup):
     ]
     tag = get_tag(soup, path)
     if tag is None:
+        err(stat, 'market_url')
         return
     url = tag['href']
-    req = request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
     try:
+        req = request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
         res = urllib.request.urlopen(req)
     except ...:
-        pass
+        err(stat, 'market_url')
     else:
         stat['market_url'] = res.geturl()
 
@@ -76,6 +87,7 @@ def get_from_game_info_image(stat, soup):
     ]
     soup = get_tag(soup, path)
     if soup is None:
+        err(stat, 'game-info-image')
         return
     get_image(stat, soup)
     get_market_url(stat, soup)
@@ -90,6 +102,8 @@ def get_wishlist_counter(stat, soup):
     soup = get_tag(soup, path)
     if soup is not None:
         stat['wishlist_count'] = int(soup.get_text())
+    else:
+        err(stat, 'wishlist_count')
 
 
 def get_alert_counter(stat, soup):
@@ -101,6 +115,8 @@ def get_alert_counter(stat, soup):
     soup = get_tag(soup, path)
     if soup is not None:
         stat['alert_count'] = int(soup.get_text())
+    else:
+        err(stat, 'alert_count')
 
 
 def get_own_counter(stat, soup):
@@ -114,7 +130,9 @@ def get_own_counter(stat, soup):
         try:
             stat['owners_count'] = int(soup.get_text())
         except ...:
-            pass
+            err(stat, 'owners_count')
+    else:
+        err(stat, 'owners_count')
 
 
 def get_from_game_collection_actions(stat, soup):
@@ -124,6 +142,7 @@ def get_from_game_collection_actions(stat, soup):
     ]
     soup = get_tag(soup, path)
     if soup is None:
+        err(stat, 'game-header game-header-container container')
         return
     get_wishlist_counter(stat, soup)
     get_alert_counter(stat, soup)
@@ -138,6 +157,8 @@ def get_release_date(stat, soup):
     soup = get_tag(soup, path)
     if soup is not None:
         stat['release_date'] = soup.get_text()
+    else:
+        err(stat, 'release_date')
 
 
 def get_developer(stat, soup):
@@ -148,6 +169,8 @@ def get_developer(stat, soup):
     soup = get_tag(soup, path)
     if soup is not None:
         stat['developer'] = soup.get_text()
+    else:
+        err(stat, 'developer')
 
 
 def get_metacritic_score(stat, soup):
@@ -157,6 +180,8 @@ def get_metacritic_score(stat, soup):
     soup = get_tag(soup, path)
     if soup is not None:
         stat['metacritic_score'] = int(soup.get_text())
+    else:
+        err(stat, 'metacritic_score')
 
 
 def get_user_score(stat, soup):
@@ -166,14 +191,18 @@ def get_user_score(stat, soup):
     soup = get_tag(soup, path)
     if soup is not None:
         stat['user_score'] = float(soup.get_text())
+    else:
+        err(stat, 'user_score')
 
 
 def get_from_first_score(stat, soup):
     soups = soup.find_all('div', class_='score-col')
     if len(soups) == 0:
+        err(stat, 'metacritic_score')
         return
     get_metacritic_score(stat, soups[0])
     if len(soups) == 1:
+        err(stat, 'user_score')
         return
     get_user_score(stat, soups[1])
 
@@ -185,16 +214,19 @@ def get_from_second_score(stat, soup):
     ]
     soup = get_tag(soup, path)
     if soup is None:
+        err(stat, 'review block')
         return
     try:
         if soup.has_attr('title'):
             stat['review_positive_pctg'] = int(soup['title'].split()[0][:-1])
+        else:
+            err(stat, 'review_positive_pctg')
         text = soup.get_text().split()
         stat['review_label'] = ' '.join(text[:-1])
         count = ''.join(text[-1].strip()[1:-1].split(','))
         stat['review_count'] = int(count)
     except ...:
-        pass
+        err(stat, 'review block')
 
 
 def get_from_reviews(stat, soup):
@@ -204,12 +236,15 @@ def get_from_reviews(stat, soup):
     ]
     soup = get_tag(soup, path)
     if soup is None:
+        err(stat, 'review, score block')
         return
     soups = soup.find_all('div', class_='score')
     if len(soups) == 0:
+        err(stat, 'review, score block')
         return
     get_from_first_score(stat, soups[0])
     if len(soups) == 1:
+        err(stat, 'review, score block')
         return
     get_from_second_score(stat, soups[1])
 
@@ -221,9 +256,16 @@ def get_platforms(stat, soup):
     ]
     soup = get_tag(soup, path)
     if soup is None:
+        err(stat, 'platforms')
         return
     soups = soup.find_all('svg')
-    stat['platforms'] = [svg['title'] for svg in soups if svg.has_attr('title')]
+    result = []
+    for svg in soups:
+        if svg.has_attr('title'):
+            result.append(svg['title'])
+        else:
+            err(stat, 'platform title')
+    stat['platforms'] = result
 
 
 def get_from_game_info_details(stat, soup):
@@ -232,6 +274,7 @@ def get_from_game_info_details(stat, soup):
     ]
     soup = get_tag(soup, path)
     if soup is None:
+        err(stat, 'game-info-details')
         return
     get_release_date(stat, soup)
     get_developer(stat, soup)
@@ -246,6 +289,7 @@ def get_genres(stat, soup):
     ]
     soup = get_tag(soup, path)
     if soup is None:
+        err(stat, 'genres')
         return
     soups = soup.find_all('a')
     stat['genres'] = [a.get_text() for a in soups]
@@ -258,6 +302,7 @@ def get_tags(stat, soup):
     ]
     soup = get_tag(soup, path)
     if soup is None:
+        err(stat, 'tags')
         return
     soups = soup.find_all('a')
     stat['tags'] = [a.get_text() for a in soups]
@@ -270,6 +315,7 @@ def get_features(stat, soup):
     ]
     soup = get_tag(soup, path)
     if soup is None:
+        err(stat, 'features')
         return
     soups = soup.find_all('a')
     stat['features'] = [a.get_text() for a in soups]
@@ -282,6 +328,7 @@ def get_from_game_offers_col_right(stat, soup):
     ]
     soup = get_tag(soup, path)
     if soup is None:
+        err(stat, 'game-offers-col-right')
         return
     get_from_game_info_details(stat, soup)
     get_genres(stat, soup)
@@ -292,8 +339,9 @@ def get_from_game_offers_col_right(stat, soup):
 def get_href(hover):
     soup = hover.find('a')
     if soup is None or not soup.has_attr('href'):
-        return
-    return 'https://gg.deals' + soup['href']
+        pass
+    else:
+        return 'https://gg.deals' + soup['href']
 
 
 def get_dlcs(stat, soup):
@@ -302,9 +350,17 @@ def get_dlcs(stat, soup):
     ]
     soup = get_tag(soup, path)
     if soup is None:
+        err(stat, 'dlcs')
         return
     soups = soup.find_all('div', class_=namer(consist, 'hoverable-box'))
-    stat['dlcs'] = [get_href(hover) for hover in soups if get_href(hover) is not None]
+    result = []
+    for hover in soups:
+        href = get_href(hover)
+        if href is not None:
+            result.append(href)
+        else:
+            err(stat, 'dlcs href')
+    stat['dlcs'] = result
 
 
 def get_packs(stat, soup):
@@ -313,9 +369,17 @@ def get_packs(stat, soup):
     ]
     soup = get_tag(soup, path)
     if soup is None:
+        err(stat, 'packs')
         return
     soups = soup.find_all('div', class_=namer(consist, 'hoverable-box'))
-    stat['packs'] = [get_href(hover) for hover in soups if get_href(hover) is not None]
+    result = []
+    for hover in soups:
+        href = get_href(hover)
+        if href is not None:
+            result.append(href)
+        else:
+            err(stat, 'packs href')
+    stat['packs'] = result
 
 
 def get_from_game_offers_col_left(stat, soup):
@@ -324,6 +388,7 @@ def get_from_game_offers_col_left(stat, soup):
     ]
     soup = get_tag(soup, path)
     if soup is None:
+        err(stat, 'game-offers-col-left')
         return
     get_dlcs(stat, soup)
     get_packs(stat, soup)
@@ -336,6 +401,7 @@ def get_from_game_offers(stat, soup):
     ]
     soup = get_tag(soup, path)
     if soup is None:
+        err(stat, 'game-offers')
         return
     get_from_game_offers_col_right(stat, soup)
     get_from_game_offers_col_left(stat, soup)
@@ -350,6 +416,7 @@ def get_price_history(stat, soup):
     ]
     soup = get_tag(soup, path)
     if soup is None or not soup.has_attr('data-with-keyshops-url'):
+        err(stat, 'price_history')
         return
     url = soup['data-with-keyshops-url']
     n = 0
@@ -374,6 +441,7 @@ def get_price_history(stat, soup):
         else:
             break
     if n == max_n:
+        err(stat, 'price_history fetch')
         return
     response = response.json()['chartData']['deals']
     for it in response:
@@ -391,6 +459,7 @@ def get_from_game_card(stat, soup):
     ]
     soup = get_tag(soup, path)
     if soup is None:
+        err(stat, 'game-card')
         return
     get_from_game_info_image(stat, soup)
     get_from_game_collection_actions(stat, soup)
@@ -404,16 +473,30 @@ def get_from_main_content_page(stat, soup):
     ]
     soup = get_tag(soup, path)
     if soup is None:
+        err(stat, 'main-content-page')
         return
     get_name(stat, soup)
     get_from_game_card(stat, soup)
 
 
-def collect_stat(url):
-    # download html file
-    with open('index.html', 'r') as file:
-        soup = bs4.BeautifulSoup(file, 'html.parser')
+def get_page(url, n_attempts=5, t_sleep=0.1):
+    n = 0
+    while n < n_attempts:
+        try:
+            req = request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            return urllib.request.urlopen(req)
+        except ...:
+            n += 1
+            time.sleep(t_sleep)
 
+
+def collect_stat(url):
+    res = get_page(url)
+    if res is None:
+        err({'url': url}, 'fetch')
+        return None
+    data = res.read().decode(encoding='utf-8')
+    soup = bs4.BeautifulSoup(data, 'html.parser')
     stat = {}
     soup = soup.html.body
     stat['url'] = url
@@ -422,5 +505,5 @@ def collect_stat(url):
     return stat
 
 
-smth = collect_stat('https://gg.deals/game/tricky-towers/')
+smth = collect_stat('https://gg.deals/game/descent-2')
 print(*smth.items(), sep='\n')
