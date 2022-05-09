@@ -13,11 +13,11 @@ def namer(func, name):
 
 
 def has_attr(tag, name):
-    return tag.has_attr(name)
+    return tag is not None and tag.has_attr(name)
 
 
 def consist(name_, name):
-    return name_.find(name) != -1
+    return name_ is not None and name_.find(name) != -1
 
 
 def get_tag(start_tag, path):
@@ -77,7 +77,7 @@ def get_wishlist_counter(stat, soup):
         (('span',), {'class_': 'count'}, -1)
     ]
     soup = get_tag(soup, path)
-    stat['wishlist_count'] = soup.get_text()
+    stat['wishlist_count'] = int(soup.get_text())
 
 
 def get_alert_counter(stat, soup):
@@ -87,7 +87,7 @@ def get_alert_counter(stat, soup):
         (('span',), {'class_': 'count'}, -1)
     ]
     soup = get_tag(soup, path)
-    stat['alert_count'] = soup.get_text()
+    stat['alert_count'] = int(soup.get_text())
 
 
 def get_own_counter(stat, soup):
@@ -97,7 +97,7 @@ def get_own_counter(stat, soup):
         (('span',), {'class_': 'count'}, -1)
     ]
     soup = get_tag(soup, path)
-    stat['owners_count'] = soup.get_text()
+    stat['owners_count'] = int(soup.get_text())
 
 
 def get_from_game_collection_actions(stat, soup):
@@ -111,6 +111,88 @@ def get_from_game_collection_actions(stat, soup):
     get_own_counter(stat, soup)
 
 
+def get_release_date(stat, soup):
+    path = [
+        (('div',), {'class_': 'game-info-details-section game-info-details-section-release'}, -1),
+        (('p',), {'class_': 'game-info-details-content'}, -1)
+    ]
+    soup = get_tag(soup, path)
+    stat['release_date'] = soup.get_text()
+
+
+def get_developer(stat, soup):
+    path = [
+        (('div',), {'class_': 'game-info-details-section game-info-details-section-developer'}, -1),
+        (('p',), {'class_': 'game-info-details-content'}, -1)
+    ]
+    soup = get_tag(soup, path)
+    stat['developer'] = soup.get_text()
+
+
+def get_metacritic_score(stat, soup):
+    path = [
+        (('span',), {'class_': 'overlay'}, -1)
+    ]
+    soup = get_tag(soup, path)
+    stat['metacritic_score'] = int(soup.get_text())
+
+
+def get_user_score(stat, soup):
+    path = [
+        (('span',), {'class_': 'overlay'}, -1)
+    ]
+    soup = get_tag(soup, path)
+    stat['user_score'] = float(soup.get_text())
+
+
+def get_from_first_score(stat, soup):
+    soups = soup.find_all('div', class_='score-col')
+    get_metacritic_score(stat, soups[0])
+    get_user_score(stat, soups[1])
+
+
+def get_from_second_score(stat, soup):
+    path = [
+        (('a',), {'class_': 'score-grade'}, -1),
+        (('span',), {}, -1)
+    ]
+    soup = get_tag(soup, path)
+    text = soup.get_text().split()
+    stat['review_label'] = ' '.join(text[:-1])
+    stat['review_positive_pctg'] = int(soup['title'].split()[0][:-1])
+    count = ''.join(text[-1].strip()[1:-1].split(','))
+    stat['review_count'] = int(count)
+
+
+def get_from_reviews(stat, soup):
+    path = [
+        (('div',), {'class_': 'game-info-details-section game-info-details-section-reviews'}, -1),
+        (('div',), {'class_': 'game-info-details-content'}, -1)
+    ]
+    soup = get_tag(soup, path)
+    soups = soup.find_all('div', class_='score')
+    get_from_first_score(stat, soups[0])
+    get_from_second_score(stat, soups[1])
+
+
+def get_from_game_info_details(stat, soup):
+    path = [
+        (('div',), {'class_': 'game-info-details'}, -1)
+    ]
+    soup = get_tag(soup, path)
+    get_release_date(stat, soup)
+    get_developer(stat, soup)
+    get_from_reviews(stat, soup)
+
+
+def get_from_game_info_content_shadow(stat, soup):
+    path = [
+        (('div',), {'class_': 'game-info-content shadow-box-big-light'}, -1)
+    ]
+    soup = get_tag(soup, path)
+    get_from_game_info_details(stat, soup)
+
+
 def get_from_game_card(stat, soup):
     path = [
         (('div',), {'class_': 'game-card'}, -1),
@@ -118,6 +200,7 @@ def get_from_game_card(stat, soup):
     soup = get_tag(soup, path)
     get_from_game_info_image(stat, soup)
     get_from_game_collection_actions(stat, soup)
+    get_from_game_info_content_shadow(stat, soup)
 
 
 def get_from_main_content_page(stat, soup):
