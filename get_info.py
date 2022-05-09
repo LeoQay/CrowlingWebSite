@@ -1,6 +1,6 @@
 import sys
 import urllib.request
-
+import requests
 import bs4
 import urllib.request as request
 
@@ -332,13 +332,57 @@ def get_from_game_offers_col_left(stat, soup):
 def get_from_game_offers(stat, soup):
     path = [
         (('div',), {'class_': 'game-section game-offers'}, -1),
-        (('div',), {'class_': 'container'}, -1),
+        (('div',), {'class_': 'container'}, -1)
     ]
     soup = get_tag(soup, path)
     if soup is None:
         return
     get_from_game_offers_col_right(stat, soup)
     get_from_game_offers_col_left(stat, soup)
+
+
+def get_price_history(stat, soup):
+    path = [
+        (('div',), {'class_': 'game-section game-about game-price-history'}, -1),
+        (('div',), {'class_': 'container'}, -1),
+        (('div',), {'class_': 'col-left'}, -1),
+        (('div',), {'class_': 'chart-container'}, -1)
+    ]
+    soup = get_tag(soup, path)
+    if soup is None or not soup.has_attr('data-with-keyshops-url'):
+        return
+    url = soup['data-with-keyshops-url']
+    n = 0
+    max_n = 5
+    while n < max_n:
+        try:
+            response = requests.get(
+                'https://gg.deals' + url,
+                headers={
+                    'accept': 'application/json',
+                    'path': url,
+                    'scheme': 'https',
+                    'method': 'GET',
+                    'accept-encoding': 'gzip, deflate, br',
+                    'authority': 'gg.deals',
+                    'x-requested-with': 'XMLHttpRequest',
+                    'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+                }
+            )
+        except ...:
+            n += 1
+        else:
+            break
+    if n == max_n:
+        return
+    response = response.json()['chartData']['deals']
+    for it in response:
+        it['ts'] = it['x']
+        it['price'] = it['y']
+        del it['name']
+        del it['x']
+        del it['y']
+    stat['price_history'] = response
 
 
 def get_from_game_card(stat, soup):
@@ -366,17 +410,15 @@ def get_from_main_content_page(stat, soup):
 
 
 def collect_stat(url):
-    stat = {}
-
     # download html file
     with open('index.html', 'r') as file:
         soup = bs4.BeautifulSoup(file, 'html.parser')
 
+    stat = {}
     soup = soup.html.body
-
     stat['url'] = url
     get_from_main_content_page(stat, soup)
-
+    get_price_history(stat, soup)
     return stat
 
 
