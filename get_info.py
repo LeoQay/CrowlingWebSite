@@ -1,14 +1,25 @@
 import sys
-from multiprocessing.dummy import Pool, Queue
+from multiprocessing.dummy import Pool, Queue, Manager
 import urllib.request
 import requests
+import gzip
+import json
+import codecs
+import tqdm
 import bs4
 import urllib.request as request
 import time
 
 
 def err(stat, what='error'):
-    print(f'Error: url: {stat["url"]}: with {what}', file=sys.stderr)
+    url = stat['url']
+    print(f'Error: url: {url}: with {what}', file=sys.stderr)
+    if url not in global_err_stat:
+        global_err_stat[url] = {what: 1}
+    elif what not in global_err_stat[url]:
+        global_err_stat[url][what] = 1
+    else:
+        global_err_stat[url][what] += 1
 
 
 def namer(func, name):
@@ -75,7 +86,7 @@ def get_market_url(stat, soup):
     try:
         req = request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
         res = urllib.request.urlopen(req)
-    except ...:
+    except BaseException:
         err(stat, 'market_url')
     else:
         stat['market_url'] = res.geturl()
@@ -129,7 +140,7 @@ def get_own_counter(stat, soup):
     if soup is not None:
         try:
             stat['owners_count'] = int(soup.get_text())
-        except ...:
+        except BaseException:
             err(stat, 'owners_count')
     else:
         err(stat, 'owners_count')
@@ -225,7 +236,7 @@ def get_from_second_score(stat, soup):
         stat['review_label'] = ' '.join(text[:-1])
         count = ''.join(text[-1].strip()[1:-1].split(','))
         stat['review_count'] = int(count)
-    except ...:
+    except BaseException:
         err(stat, 'review block')
 
 
@@ -436,7 +447,7 @@ def get_price_history(stat, soup):
                     'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
                 }
             )
-        except ...:
+        except BaseException:
             n += 1
         else:
             break
@@ -485,12 +496,12 @@ def get_page(url, n_attempts=5, t_sleep=0.1):
         try:
             req = request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
             return urllib.request.urlopen(req)
-        except ...:
+        except BaseException:
             n += 1
             time.sleep(t_sleep)
 
 
-def collect_stat(url):
+def process_page(url):
     res = get_page(url)
     if res is None:
         err({'url': url}, 'fetch')
@@ -505,5 +516,38 @@ def collect_stat(url):
     return stat
 
 
-smth = collect_stat('https://gg.deals/game/descent-2')
-print(*smth.items(), sep='\n')
+def process_page_wrapper(i):
+    file_name = 'data/part_{:05d}.jsonl.gz'.format(i)
+
+    with gzip.open(file_name, mode='wb') as f_json:
+        f_json = codecs.getwriter('utf8')(f_json)
+
+        while not queue.empty():
+            try:
+                url = queue.get()
+                record = process_page(url)
+                record_str = json.dumps(record, ensure_ascii=False)
+                print(record_str, file=f_json)
+            except BaseException:
+                err({'url': url}, 'uncatched')
+            finally:
+                with lock:
+                    pbar.update(1)
+
+
+manager = Manager()
+global_err_stat = manager.dict()
+queue = Queue()
+with open('urls.txt', 'r') as file:
+    for url in file:
+        queue.put(url.strip())
+processes = 8
+with Pool(processes=processes) as pool, tqdm.tqdm(total=queue.qsize()) as pbar:
+    lock = pbar.get_lock()
+    pool.map(process_page_wrapper, range(pool._processes))
+    pool.close()
+    pool.join()
+
+
+with open('error_stat.json', 'w') as file:
+    print(json.dumps(global_err_stat, sort_keys=True, indent=4), file=file)
