@@ -3,7 +3,6 @@ import urllib.request
 
 import bs4
 import urllib.request as request
-import collections as col
 
 
 def namer(func, name):
@@ -175,6 +174,16 @@ def get_from_reviews(stat, soup):
     get_from_second_score(stat, soups[1])
 
 
+def get_platforms(stat, soup):
+    path = [
+        (('div',), {'class_': 'game-info-details-section game-info-details-section-platforms'}, -1),
+        (('div',), {'class_': 'platform-link-icons-wrapper'}, -1)
+    ]
+    soup = get_tag(soup, path)
+    soups = soup.find_all('svg')
+    stat['platforms'] = [svg['title'] for svg in soups]
+
+
 def get_from_game_info_details(stat, soup):
     path = [
         (('div',), {'class_': 'game-info-details'}, -1)
@@ -183,14 +192,91 @@ def get_from_game_info_details(stat, soup):
     get_release_date(stat, soup)
     get_developer(stat, soup)
     get_from_reviews(stat, soup)
+    get_platforms(stat, soup)
 
 
-def get_from_game_info_content_shadow(stat, soup):
+def get_genres(stat, soup):
     path = [
+        (('div',), {'id': 'game-info-genres'}, -1),
+        (('div',), {'class_': 'tags-list badges-container'}, -1)
+    ]
+    soup = get_tag(soup, path)
+    soups = soup.find_all('a')
+    stat['genres'] = [a.get_text() for a in soups]
+
+
+def get_tags(stat, soup):
+    path = [
+        (('div',), {'id': 'game-info-tags'}, -1),
+        (('div',), {}, -1)
+    ]
+    soup = get_tag(soup, path)
+    soups = soup.find_all('a')
+    stat['tags'] = [a.get_text() for a in soups]
+
+
+def get_features(stat, soup):
+    path = [
+        (('div',), {'id': 'game-info-features'}, -1),
+        (('div',), {}, -1)
+    ]
+    soup = get_tag(soup, path)
+    soups = soup.find_all('a')
+    stat['features'] = [a.get_text() for a in soups]
+
+
+def get_from_game_offers_col_right(stat, soup):
+    path = [
+        (('div',), {'class_': 'col-right'}, -1),
         (('div',), {'class_': 'game-info-content shadow-box-big-light'}, -1)
     ]
     soup = get_tag(soup, path)
     get_from_game_info_details(stat, soup)
+    get_genres(stat, soup)
+    get_tags(stat, soup)
+    get_features(stat, soup)
+
+
+def get_href(hover):
+    soup = hover.find('a')
+    return 'https://gg.deals' + soup['href']
+
+
+def get_dlcs(stat, soup):
+    path = [
+        (('section',), {'id': 'game-dlcs'}, -1),
+    ]
+    soup = get_tag(soup, path)
+    soups = soup.find_all('div', class_=namer(consist, 'hoverable-box'))
+    stat['dlcs'] = [get_href(hover) for hover in soups]
+
+
+def get_packs(stat, soup):
+    path = [
+        (('section',), {'id': 'game-packs'}, -1),
+    ]
+    soup = get_tag(soup, path)
+    soups = soup.find_all('div', class_=namer(consist, 'hoverable-box'))
+    stat['packs'] = [get_href(hover) for hover in soups]
+
+
+def get_from_game_offers_col_left(stat, soup):
+    path = [
+        (('div',), {'class_': 'game-section section-row'}, -1)
+    ]
+    soup = get_tag(soup, path)
+    get_dlcs(stat, soup)
+    get_packs(stat, soup)
+
+
+def get_from_game_offers(stat, soup):
+    path = [
+        (('div',), {'class_': 'game-section game-offers'}, -1),
+        (('div',), {'class_': 'container'}, -1),
+    ]
+    soup = get_tag(soup, path)
+    get_from_game_offers_col_right(stat, soup)
+    get_from_game_offers_col_left(stat, soup)
 
 
 def get_from_game_card(stat, soup):
@@ -200,7 +286,7 @@ def get_from_game_card(stat, soup):
     soup = get_tag(soup, path)
     get_from_game_info_image(stat, soup)
     get_from_game_collection_actions(stat, soup)
-    get_from_game_info_content_shadow(stat, soup)
+    get_from_game_offers(stat, soup)
 
 
 def get_from_main_content_page(stat, soup):
@@ -214,7 +300,7 @@ def get_from_main_content_page(stat, soup):
 
 
 def collect_stat(url):
-    stat = col.OrderedDict()
+    stat = {}
 
     # download html file
     with open('index.html', 'r') as file:
@@ -229,4 +315,4 @@ def collect_stat(url):
 
 
 smth = collect_stat('https://gg.deals/game/tricky-towers/')
-print(smth)
+print(*smth.items(), sep='\n')
