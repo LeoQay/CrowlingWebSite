@@ -4,7 +4,7 @@
     },
     "https://gg.deals/game/assassin-s-creed-2": {
         "features": 1,
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/assassins-creed-brotherhood": {
         "dlcs": 1
@@ -19,16 +19,16 @@
         "dlcs": 1
     },
     "https://gg.deals/game/battlefield-1": {
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/battlefield-2-complete-collection": {
         "dlcs": 1,
         "features": 1,
         "packs": 1,
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/battlefield-3": {
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/bayonetta": {
         "dlcs": 1
@@ -65,7 +65,7 @@
         "dlcs": 1,
         "features": 1,
         "packs": 1,
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/commandos-2-men-of-courage": {
         "dlcs": 1
@@ -103,7 +103,7 @@
     },
     "https://gg.deals/game/deus-ex-human-revolution": {
         "features": 1,
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/deus-ex-human-revolution-director-s-cut": {
         "dlcs": 1
@@ -112,15 +112,15 @@
         "packs": 1
     },
     "https://gg.deals/game/diablo-ii": {
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/diablo-iii": {
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/duke-nukem-3d": {
         "dlcs": 1,
         "features": 1,
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/ender-lilies-quietus-of-the-knights": {
         "packs": 1
@@ -131,7 +131,7 @@
     "https://gg.deals/game/europa-universalis-ii": {
         "dlcs": 1,
         "packs": 1,
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/f-e-a-r": {
         "dlcs": 1
@@ -148,25 +148,25 @@
     "https://gg.deals/game/fifa-14": {
         "features": 1,
         "market_url": 1,
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/final-fantasy-vii-remake-intergrade": {
         "dlcs": 1,
         "packs": 1,
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/football-manager-2010": {
         "dlcs": 1,
         "features": 1,
         "packs": 1,
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/football-manager-2019": {
         "packs": 1
     },
     "https://gg.deals/game/forza-horizon-3": {
         "market_url": 1,
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/freedom-force": {
         "dlcs": 1
@@ -180,7 +180,7 @@
     },
     "https://gg.deals/game/gears-of-war-4": {
         "market_url": 1,
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/god-of-war": {
         "dlcs": 1,
@@ -191,7 +191,7 @@
     },
     "https://gg.deals/game/grand-theft-auto-iv": {
         "market_url": 1,
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/grand-theft-auto-san-andreas": {
         "dlcs": 1
@@ -205,17 +205,17 @@
     "https://gg.deals/game/guild-wars": {
         "dlcs": 1,
         "packs": 1,
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/guild-wars-2": {
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/half-life-alyx": {
         "packs": 1
     },
     "https://gg.deals/game/hearthstone": {
         "packs": 1,
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/hellblade-senua-s-sacrifice-vr-edition": {
         "dlcs": 1,
@@ -230,7 +230,7 @@
     "https://gg.deals/game/homeworld-emergence": {
         "dlcs": 1,
         "packs": 1,
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/inside": {
         "dlcs": 1
@@ -251,7 +251,7 @@
         "dlcs": 1
     },
     "https://gg.deals/game/mass-effect-3": {
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/mass-effect-legendary-edition": {
         "dlcs": 1,
@@ -272,7 +272,7 @@
     },
     "https://gg.deals/game/minecraft": {
         "market_url": 1,
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/mini-motorways": {
         "dlcs": 1
@@ -290,13 +290,13 @@
     },
     "https://gg.deals/game/nba-2k15": {
         "features": 1,
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/nba2k13": {
         "dlcs": 1,
         "features": 1,
         "packs": 1,
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/nioh-2-the-complete-edition": {
         "dlcs": 1,
@@ -321,12 +321,12 @@
     "https://gg.deals/game/out-of-the-park-baseball-15": {
         "features": 1,
         "packs": 1,
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/out-of-the-park-baseball-16": {
         "dlcs": 1,
         "features": 1,
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/out-of-the-park-baseball-17": {
         "dlcs": 1
@@ -335,7 +335,7 @@
         "dlcs": 1
     },
     "https://gg.deals/game/overwatch": {
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/persona-4-golden": {
         "dlcs": 1
@@ -344,7 +344,7 @@
         "dlcs": 1,
         "features": 1,
         "market_url": 1,
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/plants-vs-zombies": {
         "dlcs": 1
@@ -404,7 +404,7 @@
     "https://gg.deals/game/sid-meier-s-alpha-centauri": {
         "dlcs": 1,
         "features": 1,
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/sid-meier-s-civilization-iii-complete": {
         "dlcs": 1
@@ -430,7 +430,7 @@
         "features": 1,
         "market_url": 1,
         "packs": 1,
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/star-control-kessari-quadrant": {
         "dlcs": 1
@@ -448,12 +448,12 @@
         "dlcs": 1,
         "features": 1,
         "market_url": 1,
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/starcraft-ii-wings-of-liberty": {
         "features": 1,
         "market_url": 1,
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/stardew-valley": {
         "packs": 1
@@ -484,7 +484,7 @@
     "https://gg.deals/game/tetris-effect": {
         "dlcs": 1,
         "packs": 1,
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/the-curse-of-monkey-island": {
         "dlcs": 1
@@ -521,7 +521,7 @@
         "dlcs": 1
     },
     "https://gg.deals/game/titanfall-2": {
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/tom-clancy-s-splinter-cell": {
         "dlcs": 1
@@ -530,7 +530,7 @@
         "dlcs": 1
     },
     "https://gg.deals/game/tony-hawks-pro-skater-1-2": {
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/torchlight-ii": {
         "dlcs": 1
@@ -548,7 +548,7 @@
         "dlcs": 1
     },
     "https://gg.deals/game/warcraft-iii-reign-of-chaos": {
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/warhammer-40-000-dawn-of-war-dark-crusade": {
         "dlcs": 1
@@ -558,7 +558,7 @@
         "features": 1,
         "packs": 1,
         "price_history": 1,
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/west-of-loathing": {
         "packs": 1
@@ -569,10 +569,10 @@
     },
     "https://gg.deals/game/world-in-conflict": {
         "features": 1,
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/world-of-warcraft": {
-        "review, score block": 1
+        "review, counts": 1
     },
     "https://gg.deals/game/yakuza-0": {
         "dlcs": 1

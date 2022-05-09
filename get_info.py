@@ -247,15 +247,15 @@ def get_from_reviews(stat, soup):
     ]
     soup = get_tag(soup, path)
     if soup is None:
-        err(stat, 'review, score block')
+        err(stat, 'reviews')
         return
     soups = soup.find_all('div', class_='score')
     if len(soups) == 0:
-        err(stat, 'review, score block')
+        err(stat, 'review, scores')
         return
     get_from_first_score(stat, soups[0])
     if len(soups) == 1:
-        err(stat, 'review, score block')
+        err(stat, 'review, counts')
         return
     get_from_second_score(stat, soups[1])
 
