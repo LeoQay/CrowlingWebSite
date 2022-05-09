@@ -1,0 +1,4962 @@
+{
+  "url": "https://gg.deals/game/disco-elysium/",
+  "status": true,
+  "name": "Disco Elysium - The Final Cut",
+  "image": "https://img.gg.deals/a0/42/c6a8e0b916477d2193e2867709dfc039e8fd_307xt176.jpg",
+  "release_date": "15 Oct 2019",
+  "developer": "ZA/UM",
+  "metacritic_score": 97,
+  "user_score": 8.2,
+  "review_label": "Very Positive",
+  "review_positive_pctg": 94,
+  "review_count": 50630,
+  "genres": [
+    "RPG"
+  ],
+  "tags": [
+    "RPG",
+    "Story Rich",
+    "Choices Matter",
+    "Detective",
+    "Isometric",
+    "Atmospheric",
+    "Singleplayer",
+    "CRPG",
+    "Noir",
+    "Surreal",
+    "Point & Click",
+    "Indie",
+    "Adventure",
+    "Open World",
+    "Exploration",
+    "Funny",
+    "Visual Novel",
+    "Character Customization",
+    "Sexual Content",
+    "Fantasy"
+  ],
+  "features": [
+    "Single-player",
+    "Steam Achievements",
+    "Full controller support",
+    "Steam Trading Cards",
+    "Steam Cloud",
+    "Remote Play on Tablet"
+  ],
+  "platforms": [
+    "Windows",
+    "Mac",
+    "Steam Deck Verified",
+    "GeForce Now"
+  ],
+  "wishlist_count": 9464,
+  "alert_count": 1477,
+  "owners_count": 5868,
+  "market_url": "https://store.steampowered.com/app/632470/",
+  "dlcs": [
+    "https://gg.deals/dlc/disco-elysium-soundtrack-and-artbooklet/",
+    "https://gg.deals/dlc/disco-elysium-soundtrack/",
+    "https://gg.deals/dlc/disco-elysium-artbooklet/"
+  ],
+  "packs": [
+    "https://gg.deals/pack/disco-elysium-the-final-cut-control-ultimate-edition-bundle/",
+    "https://gg.deals/pack/disco-elysium-the-final-cut-bundle/"
+  ],
+  "price_history": [
+    {
+      "ts": 1571155745,
+      "price": 39.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1574795563,
+      "price": 31.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1575414148,
+      "price": 39.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1576174467,
+      "price": 31.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1576347086,
+      "price": 39.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1576764564,
+      "price": 31.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1577978772,
+      "price": 31.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1578334303,
+      "price": 39.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1579811862,
+      "price": 31.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1580157418,
+      "price": 31.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1580480564,
+      "price": 39.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1582569021,
+      "price": 31.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1583174037,
+      "price": 39.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1583503959,
+      "price": 31.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1583763454,
+      "price": 39.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1584368552,
+      "price": 31.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1584551976,
+      "price": 29.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1584983920,
+      "price": 29.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1585574332,
+      "price": 39.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1585761107,
+      "price": 29.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1586193553,
+      "price": 39.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1587748589,
+      "price": 29.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1588403806,
+      "price": 39.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1589219208,
+      "price": 29.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1589822781,
+      "price": 39.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1590585796,
+      "price": 29.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1591467057,
+      "price": 19.99,
+      "shop": "Epic Games Store"
+    },
+    {
+      "ts": 1591888765,
+      "price": 29.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1592227337,
+      "price": 39.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1593111315,
+      "price": 29.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1594923294,
+      "price": 39.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1595250437,
+      "price": 29.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1595855230,
+      "price": 29.99,
+      "shop": "Epic Games Store"
+    },
+    {
+      "ts": 1596726303,
+      "price": 39.99,
+      "shop": "Epic Games Store"
+    },
+    {
+      "ts": 1598274834,
+      "price": 29.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1598879763,
+      "price": 29.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1599325904,
+      "price": 39.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1599750670,
+      "price": 29.99,
+      "shop": "Epic Games Store"
+    },
+    {
+      "ts": 1600960095,
+      "price": 39.99,
+      "shop": "Epic Games Store"
+    },
+    {
+      "ts": 1602556770,
+      "price": 39.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1602782714,
+      "price": 27.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1603733815,
+      "price": 27.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1604326160,
+      "price": 27.99,
+      "shop": "Epic Games Store"
+    },
+    {
+      "ts": 1604592575,
+      "price": 39.99,
+      "shop": "Epic Games Store"
+    },
+    {
+      "ts": 1606334276,
+      "price": 27.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1606861444,
+      "price": 27.99,
+      "shop": "Epic Games Store"
+    },
+    {
+      "ts": 1607011326,
+      "price": 39.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1607537541,
+      "price": 25.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1607970185,
+      "price": 39.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1608128202,
+      "price": 23.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1608223997,
+      "price": 13.99,
+      "shop": "Epic Games Store"
+    },
+    {
+      "ts": 1610036005,
+      "price": 39.99,
+      "shop": "Epic Games Store"
+    },
+    {
+      "ts": 1610985931,
+      "price": 25.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1611583739,
+      "price": 23.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1612202842,
+      "price": 39.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1612966378,
+      "price": 21.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1613398559,
+      "price": 21.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1613672230,
+      "price": 21.99,
+      "shop": "Epic Games Store"
+    },
+    {
+      "ts": 1614268827,
+      "price": 39.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1616685330,
+      "price": 31.99,
+      "shop": "Epic Games Store"
+    },
+    {
+      "ts": 1617894891,
+      "price": 31.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1617989061,
+      "price": 39.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1619198680,
+      "price": 31.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1619889555,
+      "price": 39.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1621523508,
+      "price": 29.99,
+      "shop": "Epic Games Store"
+    },
+    {
+      "ts": 1621524319,
+      "price": 19.99,
+      "shop": "Epic Games Store"
+    },
+    {
+      "ts": 1623942907,
+      "price": 25.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1625490294,
+      "price": 25.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1625771651,
+      "price": 39.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1626966770,
+      "price": 23.99,
+      "shop": "Epic Games Store"
+    },
+    {
+      "ts": 1628176164,
+      "price": 39.99,
+      "shop": "Epic Games Store"
+    },
+    {
+      "ts": 1628530319,
+      "price": 23.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1629135501,
+      "price": 39.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1629464668,
+      "price": 23.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1630588547,
+      "price": 39.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1631200520,
+      "price": 23.99,
+      "shop": "Epic Games Store"
+    },
+    {
+      "ts": 1632409812,
+      "price": 39.99,
+      "shop": "Epic Games Store"
+    },
+    {
+      "ts": 1632920773,
+      "price": 21.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1633525653,
+      "price": 39.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1633988087,
+      "price": 21.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1634579575,
+      "price": 21.99,
+      "shop": "Epic Games Store"
+    },
+    {
+      "ts": 1635779799,
+      "price": 21.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1635795326,
+      "price": 21.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1635949012,
+      "price": 39.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1636397709,
+      "price": 21.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1637002211,
+      "price": 39.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1637590120,
+      "price": 19.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1638195837,
+      "price": 19.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1638390956,
+      "price": 39.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1638988916,
+      "price": 19.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1639405071,
+      "price": 17.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1639672839,
+      "price": 7.99,
+      "shop": "Epic Games Store"
+    },
+    {
+      "ts": 1641486612,
+      "price": 39.99,
+      "shop": "Epic Games Store"
+    },
+    {
+      "ts": 1643300212,
+      "price": 15.99,
+      "shop": "Epic Games Store"
+    },
+    {
+      "ts": 1644509815,
+      "price": 15.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1644866002,
+      "price": 15.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1645453369,
+      "price": 39.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1647872424,
+      "price": 15.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1648491364,
+      "price": 13.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1649095981,
+      "price": 15.99,
+      "shop": "Epic Games Store"
+    },
+    {
+      "ts": 1649344537,
+      "price": 39.99,
+      "shop": "Epic Games Store"
+    },
+    {
+      "ts": 1649941596,
+      "price": 13.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1650319681,
+      "price": 39.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1651435941,
+      "price": 39.99,
+      "shop": "Gog.com"
+    }
+  ]
+}
+{
+  "url": "https://gg.deals/game/quake/",
+  "status": true,
+  "name": "QUAKE",
+  "image": "https://img.gg.deals/c6/e3/6b3446c40be96b177c5dfc6b79d226a7cbfa_307xt176.jpg",
+  "release_date": "22 Jun 1996",
+  "developer": "MachineGames, Nightdive Studios, id Software",
+  "metacritic_score": 94,
+  "user_score": 8.8,
+  "review_label": "Overwhelmingly Positive",
+  "review_positive_pctg": 96,
+  "review_count": 8725,
+  "genres": [
+    "Action"
+  ],
+  "tags": [
+    "FPS",
+    "Classic",
+    "Action",
+    "Shooter",
+    "1990's",
+    "Singleplayer",
+    "Multiplayer",
+    "Lovecraftian",
+    "Gore",
+    "First-Person",
+    "Old School",
+    "Retro",
+    "Horror",
+    "Great Soundtrack",
+    "Moddable",
+    "Fast-Paced",
+    "Sci-fi",
+    "Atmospheric",
+    "Competitive",
+    "Co-op"
+  ],
+  "features": [
+    "Single-player",
+    "Online PvP",
+    "Shared/Split Screen PvP",
+    "Online Co-op",
+    "Shared/Split Screen Co-op",
+    "Cross-Platform Multiplayer",
+    "Full controller support",
+    "Steam Cloud",
+    "Remote Play Together"
+  ],
+  "platforms": [
+    "Windows"
+  ],
+  "wishlist_count": 918,
+  "alert_count": 81,
+  "owners_count": 5692,
+  "market_url": "https://store.steampowered.com/app/2310/",
+  "dlcs": [],
+  "packs": [
+    "https://gg.deals/pack/quake-collection/",
+    "https://gg.deals/pack/quake-the-offering/"
+  ],
+  "price_history": [
+    {
+      "ts": 1403140562,
+      "price": 9.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1403215461,
+      "price": 4.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1404160588,
+      "price": 9.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1405620259,
+      "price": 7.49,
+      "shop": "GameFly.com"
+    },
+    {
+      "ts": 1405965862,
+      "price": 9.99,
+      "shop": "GameFly.com"
+    },
+    {
+      "ts": 1406203555,
+      "price": 5,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1406549067,
+      "price": 9.42,
+      "shop": "GamersGate UK"
+    },
+    {
+      "ts": 1406549243,
+      "price": 9.99,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1414170191,
+      "price": 2.49,
+      "shop": "GameFly.com"
+    },
+    {
+      "ts": 1414263790,
+      "price": 2.49,
+      "shop": "GameFly.com"
+    },
+    {
+      "ts": 1414263790,
+      "price": null,
+      "shop": null
+    },
+    {
+      "ts": 1417058117,
+      "price": 4.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1417083671,
+      "price": 4.73,
+      "shop": "GamersGate UK"
+    },
+    {
+      "ts": 1417099092,
+      "price": 4.71,
+      "shop": "GamersGate UK"
+    },
+    {
+      "ts": 1417546870,
+      "price": 9.37,
+      "shop": "GamersGate UK"
+    },
+    {
+      "ts": 1418929511,
+      "price": 4.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1418983330,
+      "price": 4.6,
+      "shop": "GamersGate UK"
+    },
+    {
+      "ts": 1420372934,
+      "price": 9.44,
+      "shop": "GamersGate UK"
+    },
+    {
+      "ts": 1432040472,
+      "price": 9.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1432555674,
+      "price": 5.99,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1433156858,
+      "price": 9.99,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1434046444,
+      "price": 4.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1434993780,
+      "price": 9.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1437672191,
+      "price": 5.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1437758518,
+      "price": 3.39,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1437931213,
+      "price": 5.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1438024810,
+      "price": 9.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1445864784,
+      "price": 5,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1446552303,
+      "price": 9.99,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1446732450,
+      "price": 4.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1446908705,
+      "price": 9.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1447423752,
+      "price": 4.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1447596527,
+      "price": 9.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1448480386,
+      "price": 2.49,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1448999445,
+      "price": 9.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1450699534,
+      "price": 2.5,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1450706714,
+      "price": 2.49,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1451365482,
+      "price": 9.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1452882351,
+      "price": 6.79,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1454091311,
+      "price": 19.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1456314517,
+      "price": 9.99,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1456347829,
+      "price": 9.99,
+      "shop": "WinGameStore"
+    },
+    {
+      "ts": 1458922022,
+      "price": 8.55,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1459379635,
+      "price": 2.5,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1460066964,
+      "price": 9.99,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1460567287,
+      "price": 7.78,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1461312657,
+      "price": 2.86,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1461622109,
+      "price": 7.94,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1465564444,
+      "price": 4.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1466586507,
+      "price": 4.73,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1466799673,
+      "price": 2.49,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1467665524,
+      "price": 4.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1468847498,
+      "price": 2.5,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1469358493,
+      "price": 4.99,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1470045330,
+      "price": 2.62,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1470183226,
+      "price": 2.49,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1470676578,
+      "price": 4.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1482446547,
+      "price": 1.64,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1483394667,
+      "price": 4.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1487867008,
+      "price": 2.49,
+      "shop": "Bundle Stars"
+    },
+    {
+      "ts": 1488529421,
+      "price": 4.99,
+      "shop": "Bundle Stars"
+    },
+    {
+      "ts": 1496771403,
+      "price": 3.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1498000328,
+      "price": 9.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1498174936,
+      "price": 1.24,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1499279020,
+      "price": 4.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1500656160,
+      "price": 1.19,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1500852743,
+      "price": 1.15,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1502144195,
+      "price": 4.99,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1502701966,
+      "price": 1.27,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1503310279,
+      "price": 2.49,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1503426835,
+      "price": 1.24,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1504028045,
+      "price": 4.71,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1509030070,
+      "price": 3.39,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1509678908,
+      "price": 4.71,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1511698285,
+      "price": 1.24,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1511982186,
+      "price": 4.71,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1513348615,
+      "price": 3.39,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1514350328,
+      "price": 1.24,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1515144420,
+      "price": 4.71,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1518481278,
+      "price": 1.69,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1519087149,
+      "price": 4.71,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1528126423,
+      "price": 3.39,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1529362071,
+      "price": 4.71,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1529946624,
+      "price": 1.24,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1530875381,
+      "price": 4.71,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1531824723,
+      "price": 4.24,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1533670917,
+      "price": 1.24,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1534273691,
+      "price": 4.71,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1534501070,
+      "price": 3.39,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1534803831,
+      "price": 4.71,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1538407635,
+      "price": 3.39,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1538950448,
+      "price": 4.71,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1539135083,
+      "price": 4.09,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1539818289,
+      "price": 4.19,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1542752841,
+      "price": 1.24,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1542758615,
+      "price": 1.21,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1542762374,
+      "price": 1.13,
+      "shop": "Razer Game Store"
+    },
+    {
+      "ts": 1542787595,
+      "price": 1.21,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1543142163,
+      "price": 1.13,
+      "shop": "Razer Game Store"
+    },
+    {
+      "ts": 1543361562,
+      "price": 1.24,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1543368061,
+      "price": 1.73,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1543375456,
+      "price": 2.25,
+      "shop": "2Game"
+    },
+    {
+      "ts": 1543375959,
+      "price": 2.83,
+      "shop": "Games Republic"
+    },
+    {
+      "ts": 1543411446,
+      "price": 4.49,
+      "shop": "Razer Game Store"
+    },
+    {
+      "ts": 1543566301,
+      "price": 4.6,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1543732261,
+      "price": 4.24,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1545260863,
+      "price": 1.19,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1545276132,
+      "price": 1.13,
+      "shop": "Dreamgame US"
+    },
+    {
+      "ts": 1545318945,
+      "price": 1.1,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1547121197,
+      "price": 1.25,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1553695617,
+      "price": 4.19,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1554120361,
+      "price": 4.14,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1555538766,
+      "price": 1.86,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1555538795,
+      "price": 1.72,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1555538812,
+      "price": 1.65,
+      "shop": "Gamesplanet US"
+    },
+    {
+      "ts": 1555542070,
+      "price": 1.53,
+      "shop": "GamersGate UK"
+    },
+    {
+      "ts": 1555542223,
+      "price": 1.49,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1556234086,
+      "price": 1.56,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1556366847,
+      "price": 4.19,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1561485502,
+      "price": 2.49,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1562706806,
+      "price": 4.19,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1563901541,
+      "price": 1.64,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1563922853,
+      "price": 1.56,
+      "shop": "GamersGate UK"
+    },
+    {
+      "ts": 1563959406,
+      "price": 1.56,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1564157551,
+      "price": 1.4,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1564704309,
+      "price": 4.19,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1564992603,
+      "price": 1.65,
+      "shop": "Gamesplanet US"
+    },
+    {
+      "ts": 1564993287,
+      "price": 1.61,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1565165461,
+      "price": 1.6,
+      "shop": "Gamesplanet US"
+    },
+    {
+      "ts": 1565165518,
+      "price": 1.56,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1565598154,
+      "price": 1.79,
+      "shop": "Gamesplanet FR"
+    },
+    {
+      "ts": 1565598157,
+      "price": 1.79,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1565601017,
+      "price": 4.19,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1567595169,
+      "price": 1.64,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1568415615,
+      "price": 4.19,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1570554175,
+      "price": 4.39,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1570651444,
+      "price": 4.19,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1574557497,
+      "price": 4.49,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1574793833,
+      "price": 1.49,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1574899483,
+      "price": 1.2,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1574903103,
+      "price": 1.17,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1575500843,
+      "price": 1.2,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1575505094,
+      "price": 1.35,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1575507976,
+      "price": 2.08,
+      "shop": "Games Republic"
+    },
+    {
+      "ts": 1575511516,
+      "price": 2.12,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1575515203,
+      "price": 2.69,
+      "shop": "2Game EU"
+    },
+    {
+      "ts": 1575515204,
+      "price": 2.7,
+      "shop": "2Game"
+    },
+    {
+      "ts": 1575515228,
+      "price": 3.99,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1576780644,
+      "price": 1.49,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1576886446,
+      "price": 1.26,
+      "shop": "GamersGate UK"
+    },
+    {
+      "ts": 1576886580,
+      "price": 1.2,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1576939946,
+      "price": 1.19,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1578093232,
+      "price": 1.2,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1578097587,
+      "price": 1.35,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1578126916,
+      "price": 4.49,
+      "shop": "Gamesplanet US"
+    },
+    {
+      "ts": 1578758911,
+      "price": 4.19,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1579741368,
+      "price": 1.44,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1579788412,
+      "price": 1.35,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1580778468,
+      "price": 4.19,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1581325615,
+      "price": 1.64,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1581325710,
+      "price": 1.5,
+      "shop": "Gamesplanet US"
+    },
+    {
+      "ts": 1581930612,
+      "price": 1.57,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1581930623,
+      "price": 1.63,
+      "shop": "Gamesplanet FR"
+    },
+    {
+      "ts": 1581948694,
+      "price": 2.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1582553779,
+      "price": 4.17,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1583107816,
+      "price": 2.5,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1583111091,
+      "price": 2.45,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1583795092,
+      "price": 4.17,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1583946298,
+      "price": 1.49,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1585008454,
+      "price": 4.19,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1585394066,
+      "price": 4.45,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1585609250,
+      "price": 1.5,
+      "shop": "GamersGate UK"
+    },
+    {
+      "ts": 1585652853,
+      "price": 1.38,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1585868950,
+      "price": 1.28,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1586819078,
+      "price": 1.38,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1586909232,
+      "price": 1.49,
+      "shop": "Gamesplanet US"
+    },
+    {
+      "ts": 1587370404,
+      "price": 4.14,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1590585817,
+      "price": 2.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1591794447,
+      "price": 4.14,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1593109129,
+      "price": 1.49,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1594318742,
+      "price": 4.14,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1596150410,
+      "price": 4.39,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1596413190,
+      "price": 1.5,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1596492459,
+      "price": 1.5,
+      "shop": "Gamesplanet US"
+    },
+    {
+      "ts": 1596495824,
+      "price": 1.32,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1597334620,
+      "price": 1.34,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1597791776,
+      "price": 1.48,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1597791967,
+      "price": 1.5,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1597853049,
+      "price": 4.04,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1601244428,
+      "price": 2.5,
+      "shop": "Gamesplanet US"
+    },
+    {
+      "ts": 1601308883,
+      "price": 2.49,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1601852407,
+      "price": 2.5,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1602111824,
+      "price": 2.5,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1602562022,
+      "price": 4.04,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1605827361,
+      "price": 1.78,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1605827371,
+      "price": 1.59,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1605827375,
+      "price": 1.5,
+      "shop": "Gamesplanet US"
+    },
+    {
+      "ts": 1605827974,
+      "price": 1.49,
+      "shop": "GAMESLOAD"
+    },
+    {
+      "ts": 1605830720,
+      "price": 1.4,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1605892103,
+      "price": 1.39,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1606323876,
+      "price": 1.4,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1606950330,
+      "price": 1.49,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1606953613,
+      "price": 1.5,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1606961000,
+      "price": 4.04,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1608249936,
+      "price": 4.49,
+      "shop": "Gamesplanet US"
+    },
+    {
+      "ts": 1608592177,
+      "price": 1.83,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1608592185,
+      "price": 1.5,
+      "shop": "Gamesplanet US"
+    },
+    {
+      "ts": 1608595554,
+      "price": 1.32,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1609887930,
+      "price": 1.35,
+      "shop": "GAMESLOAD"
+    },
+    {
+      "ts": 1609889122,
+      "price": 1.49,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1609891756,
+      "price": 4.04,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1612879541,
+      "price": 2.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1613009086,
+      "price": 1.5,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1613037767,
+      "price": 1.49,
+      "shop": "Indie Gala Store"
+    },
+    {
+      "ts": 1613956279,
+      "price": 4.04,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1614791253,
+      "price": 2.49,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1615802584,
+      "price": 2.24,
+      "shop": "Indie Gala Store"
+    },
+    {
+      "ts": 1616371342,
+      "price": 4.04,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1618560677,
+      "price": 2.5,
+      "shop": "Gamesplanet US"
+    },
+    {
+      "ts": 1619424540,
+      "price": 2.76,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1619430383,
+      "price": 3.02,
+      "shop": "Gamesplanet FR"
+    },
+    {
+      "ts": 1619430393,
+      "price": 4.04,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1620219825,
+      "price": 3.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1620580700,
+      "price": 2.49,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1621185602,
+      "price": 2.49,
+      "shop": "Indie Gala Store"
+    },
+    {
+      "ts": 1621562531,
+      "price": 2.49,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1621897783,
+      "price": 2.5,
+      "shop": "Gamesplanet US"
+    },
+    {
+      "ts": 1622189152,
+      "price": 2.83,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1622189525,
+      "price": 3.05,
+      "shop": "Gamesplanet FR"
+    },
+    {
+      "ts": 1622193432,
+      "price": 4.04,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1624559790,
+      "price": 1.49,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1625769726,
+      "price": 4.04,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1626652943,
+      "price": 2.49,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1627772613,
+      "price": 4.04,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1628204619,
+      "price": 4.44,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1628547142,
+      "price": 1.5,
+      "shop": "GAMESLOAD"
+    },
+    {
+      "ts": 1628550146,
+      "price": 1.33,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1628553898,
+      "price": 1.26,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1628582555,
+      "price": 1.26,
+      "shop": "Indie Gala Store"
+    },
+    {
+      "ts": 1628618526,
+      "price": 1.19,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1629396135,
+      "price": 1.26,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1629399937,
+      "price": 1.26,
+      "shop": "Indie Gala Store"
+    },
+    {
+      "ts": 1629446586,
+      "price": 1.35,
+      "shop": "Allyouplay"
+    },
+    {
+      "ts": 1629461283,
+      "price": 1.35,
+      "shop": "Voidu"
+    },
+    {
+      "ts": 1629522372,
+      "price": 2.7,
+      "shop": "Voidu"
+    },
+    {
+      "ts": 1629781469,
+      "price": 4.99,
+      "shop": "Indie Gala Store"
+    },
+    {
+      "ts": 1631783087,
+      "price": 3.99,
+      "shop": "Indie Gala Store"
+    },
+    {
+      "ts": 1631836941,
+      "price": 4.49,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1632561465,
+      "price": 8.49,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1632920780,
+      "price": 4.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1633525656,
+      "price": 8.49,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1633626901,
+      "price": 8.49,
+      "shop": "Voidu"
+    },
+    {
+      "ts": 1634285478,
+      "price": 5.46,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1634285497,
+      "price": 4.99,
+      "shop": "Gamesplanet US"
+    },
+    {
+      "ts": 1634890325,
+      "price": 4.99,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1635728919,
+      "price": 4.39,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1636524134,
+      "price": 4.24,
+      "shop": "Voidu"
+    },
+    {
+      "ts": 1637127009,
+      "price": 4.49,
+      "shop": "2Game"
+    },
+    {
+      "ts": 1637266979,
+      "price": 3.99,
+      "shop": "Microsoft Store"
+    },
+    {
+      "ts": 1637712226,
+      "price": 3.55,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1637716354,
+      "price": 3.35,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1637716441,
+      "price": 1.72,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1637766576,
+      "price": 1.69,
+      "shop": "Indie Gala Store"
+    },
+    {
+      "ts": 1638234731,
+      "price": 1.8,
+      "shop": "Allyouplay"
+    },
+    {
+      "ts": 1638242035,
+      "price": 2.4,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1638320937,
+      "price": 3.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1638389402,
+      "price": 3.99,
+      "shop": "Microsoft Store"
+    },
+    {
+      "ts": 1638526364,
+      "price": 4.24,
+      "shop": "Voidu"
+    },
+    {
+      "ts": 1639523112,
+      "price": 4.49,
+      "shop": "Allyouplay"
+    },
+    {
+      "ts": 1639605873,
+      "price": 4.49,
+      "shop": "2Game"
+    },
+    {
+      "ts": 1639671904,
+      "price": 3.99,
+      "shop": "Epic Games Store"
+    },
+    {
+      "ts": 1640131811,
+      "price": 3.39,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1640135711,
+      "price": 2.4,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1641439719,
+      "price": 3.6,
+      "shop": "Allyouplay"
+    },
+    {
+      "ts": 1641440340,
+      "price": 3.99,
+      "shop": "Epic Games Store"
+    },
+    {
+      "ts": 1641485747,
+      "price": 6.99,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1643238194,
+      "price": 4,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1643238657,
+      "price": 3.99,
+      "shop": "Gamesplanet US"
+    },
+    {
+      "ts": 1643242258,
+      "price": 3.5,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1643242399,
+      "price": 2.29,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1643713646,
+      "price": 2.35,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1643935833,
+      "price": 3.99,
+      "shop": "Epic Games Store"
+    },
+    {
+      "ts": 1644537994,
+      "price": 3.08,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1645229192,
+      "price": 7.99,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1645662986,
+      "price": 8.39,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1646003619,
+      "price": 5.35,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1646003644,
+      "price": 4.99,
+      "shop": "Gamesplanet US"
+    },
+    {
+      "ts": 1646615766,
+      "price": 4.49,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1647900497,
+      "price": 4.49,
+      "shop": "Newegg"
+    },
+    {
+      "ts": 1648130710,
+      "price": 3.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1649250306,
+      "price": 4.99,
+      "shop": "Epic Games Store"
+    },
+    {
+      "ts": 1649363055,
+      "price": 4.99,
+      "shop": "Microsoft Store"
+    },
+    {
+      "ts": 1649801442,
+      "price": 4.5,
+      "shop": "Allyouplay"
+    },
+    {
+      "ts": 1649804715,
+      "price": 4.3,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1649844118,
+      "price": 4,
+      "shop": "Voidu"
+    },
+    {
+      "ts": 1650881203,
+      "price": 4.3,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1650927901,
+      "price": 7.99,
+      "shop": "Voidu"
+    },
+    {
+      "ts": 1651237597,
+      "price": 3.99,
+      "shop": "Gog.com"
+    },
+    {
+      "ts": 1651435943,
+      "price": 3.99,
+      "shop": "Gog.com"
+    }
+  ]
+}
+{
+  "url": "https://gg.deals/game/half-life-alyx/",
+  "status": true,
+  "name": "Half-Life: Alyx",
+  "image": "https://img.gg.deals/a2/97/da919c92b2317783caf7775391b2125ed81a_307xt176.jpg",
+  "release_date": "23 Mar 2020",
+  "developer": "Valve",
+  "metacritic_score": 93,
+  "user_score": 9.2,
+  "review_label": "Overwhelmingly Positive",
+  "review_positive_pctg": 98,
+  "review_count": 60051,
+  "genres": [
+    "Action",
+    "Adventure"
+  ],
+  "tags": [
+    "VR",
+    "FPS",
+    "Story Rich",
+    "Horror",
+    "Shooter",
+    "Female Protagonist",
+    "First-Person",
+    "Singleplayer",
+    "Action",
+    "Zombies",
+    "Sci-fi",
+    "Atmospheric",
+    "Beautiful",
+    "Adventure",
+    "Aliens",
+    "Futuristic",
+    "Psychological Horror",
+    "Memes",
+    "Great Soundtrack",
+    "Gore"
+  ],
+  "features": [
+    "Single-player",
+    "Steam Achievements",
+    "Captions available",
+    "Steam Workshop",
+    "Includes level editor"
+  ],
+  "platforms": [
+    "Windows",
+    "Steam Deck Unsupported",
+    "VR Required"
+  ],
+  "wishlist_count": 5809,
+  "alert_count": 574,
+  "owners_count": 3847,
+  "market_url": "https://store.steampowered.com/app/546560/",
+  "dlcs": [
+    "https://gg.deals/dlc/half-life-alyx-soundtrack/"
+  ],
+  "packs": [],
+  "price_history": [
+    {
+      "ts": 1574360322,
+      "price": 53.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1584984220,
+      "price": 59.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1593114972,
+      "price": 44.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1594661334,
+      "price": 59.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1603997928,
+      "price": 44.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1604348049,
+      "price": 59.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1606338855,
+      "price": 44.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1606847210,
+      "price": 59.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1608673630,
+      "price": 44.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1609878865,
+      "price": 59.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1616520471,
+      "price": 35.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1617211674,
+      "price": 59.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1624565185,
+      "price": 35.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1625775920,
+      "price": 59.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1631827465,
+      "price": 35.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1632160604,
+      "price": 59.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1637793965,
+      "price": 29.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1638394177,
+      "price": 59.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1640205165,
+      "price": 29.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1641423874,
+      "price": 59.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1643315685,
+      "price": 29.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1643923645,
+      "price": 59.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1651435946,
+      "price": 59.99,
+      "shop": "Steam"
+    }
+  ]
+}
+{
+  "url": "https://gg.deals/game/starcraft-ii-wings-of-liberty/",
+  "status": true,
+  "name": "StarCraft II: Wings of Liberty",
+  "image": "https://img.gg.deals/fa/76/f05b86940e6ec23e18e1d2e230a9975c72de_307xt176.jpg",
+  "release_date": "27 Jul 2010",
+  "developer": "Blizzard Entertainment",
+  "metacritic_score": 93,
+  "user_score": 8.2,
+  "genres": [
+    "Strategy"
+  ],
+  "tags": [
+    "Strategy"
+  ],
+  "features": [],
+  "platforms": [
+    "Windows"
+  ],
+  "wishlist_count": 44,
+  "alert_count": 15,
+  "owners_count": 110,
+  "dlcs": [
+    "https://gg.deals/dlc/starcraft-ii-announcers-voice-of-legends-announcer-bundle-voices-of-legend-announcer-bundle/",
+    "https://gg.deals/dlc/starcraft-ii-zerg-cerberus-structure-skins-bundle/",
+    "https://gg.deals/dlc/starcraft-ii-terran-tyrador-structure-skins-bundle/",
+    "https://gg.deals/dlc/starcraft-ii-protoss-ihan-rii-structure-skins-bundle/",
+    "https://gg.deals/dlc/starcraft-ii-war-chest-4-structure-skin-bundles-zerg-bundle/",
+    "https://gg.deals/dlc/starcraft-ii-war-chest-4-structure-skin-bundles-terran-bundle/",
+    "https://gg.deals/dlc/starcraft-ii-war-chest-4-structure-skin-bundles-protoss-bundle/",
+    "https://gg.deals/dlc/starcraft-ii-blizzcon-2018-war-chest-skin-bundles-protoss-bundle/",
+    "https://gg.deals/dlc/starcraft-ii-war-chest-5-protoss-ihan-rii-skins-bundle/",
+    "https://gg.deals/dlc/starcraft-ii-blizzcon-2018-war-chest-skin-bundles-zerg-bundle/",
+    "https://gg.deals/dlc/starcraft-ii-war-chest-5-zerg-cerberus-skins-bundle/",
+    "https://gg.deals/dlc/starcraft-ii-blizzcon-2018-war-chest-skin-bundles-terran-bundle/",
+    "https://gg.deals/dlc/starcraft-ii-war-chest-5-terran-tyrador-skins-bundle/",
+    "https://gg.deals/dlc/starcraft-ii-carbot-complete-bundle/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-scboy/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-tastosis/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-lowko/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-mr-sheng/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-winter/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-white-ra/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-jeon/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-kim/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-um/",
+    "https://gg.deals/dlc/starcraft-ii-commander-alarak/",
+    "https://gg.deals/dlc/starcraft-ii-commander-dehaka/",
+    "https://gg.deals/dlc/starcraft-ii-commander-nova/",
+    "https://gg.deals/dlc/starcraft-ii-commander-stukov/",
+    "https://gg.deals/dlc/starcraft-ii-commander-tychus/",
+    "https://gg.deals/dlc/starcraft-ii-commander-zeratul/",
+    "https://gg.deals/dlc/starcraft-ii-commander-abathur/",
+    "https://gg.deals/dlc/starcraft-ii-commander-han-and-horner/",
+    "https://gg.deals/dlc/starcraft-ii-commander-stetmann/",
+    "https://gg.deals/dlc/starcraft-ii-commander-mengsk/",
+    "https://gg.deals/dlc/starcraft-ii-commander-fenix/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-zeratul/",
+    "https://gg.deals/dlc/starcraft-ii-premium-arcade-direct-strike/",
+    "https://gg.deals/dlc/starcraft-ii-premium-arcade-ark-star/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-d-va/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-dehaka/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-fenix/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-nova/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-raynor/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-abathur/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-artanis/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-alarak/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-kerrigan/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-horner-and-han/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-swann/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-tychus/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-stetmann/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-mengsk/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-day-9/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-incontrol/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-park/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-totalbiscuit/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-nathanias/",
+    "https://gg.deals/dlc/starcraft-ii-han-and-horner-master-bundle/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-alex007/",
+    "https://gg.deals/dlc/starcraft-ii-announcer-pomf-and-thud/",
+    "https://gg.deals/dlc/starcraft-ii-totalbiscuit-commemorative-bundle/",
+    "https://gg.deals/dlc/starcraft-ii-terran-special-forces-skins-bundle/",
+    "https://gg.deals/dlc/starcraft-ii-zerg-simulant-skins-bundle/",
+    "https://gg.deals/dlc/starcraft-ii-protoss-forged-skins-bundle/",
+    "https://gg.deals/dlc/starcraft-ii-war-chest-katowice-2019-zerg-pass/",
+    "https://gg.deals/dlc/starcraft-ii-war-chest-katowice-2019-terran-pass/",
+    "https://gg.deals/dlc/starcraft-ii-war-chest-katowice-2019-protoss-pass/",
+    "https://gg.deals/dlc/starcraft-ii-war-chest-6-structure-skin-bundles/"
+  ],
+  "packs": [
+    "https://gg.deals/pack/starcraft-ii-wings-of-liberty-heart-of-the-swarm/",
+    "https://gg.deals/pack/starcraft-ii-campaign-collection/",
+    "https://gg.deals/pack/starcraft-ii-battle-chest/",
+    "https://gg.deals/pack/starcraft-ii-digital-deluxe-edition/"
+  ],
+  "price_history": [
+    {
+      "ts": 1445156558,
+      "price": 19.99,
+      "shop": "Amazon.com"
+    },
+    {
+      "ts": 1448526241,
+      "price": 9.99,
+      "shop": "Amazon.com"
+    },
+    {
+      "ts": 1448785383,
+      "price": 19.99,
+      "shop": "Amazon.com"
+    },
+    {
+      "ts": 1448871797,
+      "price": 9.99,
+      "shop": "Amazon.com"
+    },
+    {
+      "ts": 1448958284,
+      "price": 19.99,
+      "shop": "Amazon.com"
+    },
+    {
+      "ts": 1459153390,
+      "price": 9.98,
+      "shop": "Amazon.com"
+    },
+    {
+      "ts": 1459239775,
+      "price": 19.99,
+      "shop": "Amazon.com"
+    },
+    {
+      "ts": 1459499095,
+      "price": 9.98,
+      "shop": "Amazon.com"
+    },
+    {
+      "ts": 1459671825,
+      "price": 19.99,
+      "shop": "Amazon.com"
+    },
+    {
+      "ts": 1468312252,
+      "price": 9.99,
+      "shop": "Amazon.com"
+    },
+    {
+      "ts": 1468398438,
+      "price": 19.99,
+      "shop": "Amazon.com"
+    },
+    {
+      "ts": 1479799188,
+      "price": 9.99,
+      "shop": "Gamestop"
+    },
+    {
+      "ts": 1480400358,
+      "price": 19.99,
+      "shop": "Gamestop"
+    },
+    {
+      "ts": 1488391937,
+      "price": 9.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1489597874,
+      "price": 19.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1491805049,
+      "price": 9.99,
+      "shop": "Gamestop"
+    },
+    {
+      "ts": 1492373781,
+      "price": 19.99,
+      "shop": "Gamestop"
+    },
+    {
+      "ts": 1493183838,
+      "price": 14.97,
+      "shop": "Gamestop"
+    },
+    {
+      "ts": 1497373867,
+      "price": 9.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1498587090,
+      "price": 19.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1499769306,
+      "price": 9.99,
+      "shop": "Amazon.com"
+    },
+    {
+      "ts": 1499942511,
+      "price": 19.99,
+      "shop": "Amazon.com"
+    },
+    {
+      "ts": 1504638580,
+      "price": 9.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1505841019,
+      "price": 9.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1505841019,
+      "price": null,
+      "shop": null
+    },
+    {
+      "ts": 1510781311,
+      "price": 19.99,
+      "shop": "Amazon.com"
+    },
+    {
+      "ts": 1514285905,
+      "price": 29.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1515524994,
+      "price": 39.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1520356210,
+      "price": 29.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1521656041,
+      "price": 39.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1526429650,
+      "price": 39.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1526429650,
+      "price": null,
+      "shop": null
+    },
+    {
+      "ts": 1530002635,
+      "price": 19.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1530814567,
+      "price": 39.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1537204492,
+      "price": 29.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1538413908,
+      "price": 39.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1542737295,
+      "price": 19.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1543343777,
+      "price": 29.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1544097130,
+      "price": 39.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1545329486,
+      "price": 29.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1546906476,
+      "price": 39.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1553619961,
+      "price": 29.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1554500102,
+      "price": 29.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1554500102,
+      "price": null,
+      "shop": null
+    },
+    {
+      "ts": 1554674759,
+      "price": 39.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1554675060,
+      "price": 29.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1554829638,
+      "price": 39.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1574799531,
+      "price": 29.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1575406693,
+      "price": 39.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1576778856,
+      "price": 29.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1578423971,
+      "price": 39.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1584465204,
+      "price": 29.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1585674409,
+      "price": 39.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1595869717,
+      "price": 19.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1597165689,
+      "price": 39.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1606242130,
+      "price": 19.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1606932502,
+      "price": 39.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1608574119,
+      "price": 29.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1609881787,
+      "price": 39.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1617208813,
+      "price": 39.99,
+      "shop": "Amazon.com"
+    },
+    {
+      "ts": 1620324334,
+      "price": 29.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1621274746,
+      "price": 39.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1624986437,
+      "price": 19.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1626127574,
+      "price": 39.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1630429873,
+      "price": 29.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1631034423,
+      "price": 39.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1637258862,
+      "price": 29.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1638299573,
+      "price": 39.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1639678352,
+      "price": 19.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1641320651,
+      "price": 39.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1647364167,
+      "price": 29.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1648663793,
+      "price": 39.99,
+      "shop": "Battle.net"
+    },
+    {
+      "ts": 1651435947,
+      "price": 39.99,
+      "shop": "Battle.net"
+    }
+  ]
+}
+{
+  "url": "https://gg.deals/game/company-of-heroes/",
+  "status": true,
+  "name": "Company of Heroes",
+  "image": "https://img.gg.deals/39/77/bfe0d124ea2ffd784689474a60518957dde0_307xt176.jpg",
+  "release_date": "11 Sep 2006",
+  "developer": "Relic Entertainment",
+  "metacritic_score": 93,
+  "user_score": 8.7,
+  "review_label": "Very Positive",
+  "review_positive_pctg": 94,
+  "review_count": 7662,
+  "genres": [
+    "Action",
+    "Strategy"
+  ],
+  "tags": [
+    "Strategy",
+    "World War II",
+    "RTS",
+    "War",
+    "Action",
+    "Multiplayer",
+    "Singleplayer",
+    "Tactical",
+    "Military",
+    "Violent",
+    "Historical",
+    "Base Building",
+    "Co-op",
+    "Classic",
+    "Real Time Tactics",
+    "Mod",
+    "Moddable",
+    "Great Soundtrack",
+    "Story Rich",
+    "Mature"
+  ],
+  "features": [
+    "Single-player",
+    "Steam Trading Cards",
+    "Steam Workshop",
+    "Steam Cloud"
+  ],
+  "platforms": [
+    "Windows",
+    "Steam Deck Unsupported"
+  ],
+  "wishlist_count": 238,
+  "alert_count": 38,
+  "owners_count": 20490,
+  "market_url": "https://store.steampowered.com/app/228200/",
+  "dlcs": [
+    "https://gg.deals/dlc/company-of-heroes-new-steam-version-core-game/"
+  ],
+  "packs": [
+    "https://gg.deals/pack/company-of-heroes-company-of-heroes-tales-of-valor/",
+    "https://gg.deals/pack/company-of-heroes-company-of-heroes-opposing-fronts/",
+    "https://gg.deals/pack/company-of-heroes-gold/",
+    "https://gg.deals/pack/company-of-heroes-complete-pack/",
+    "https://gg.deals/pack/company-of-heroes-franchise-edition-1/",
+    "https://gg.deals/pack/relic-collection/"
+  ],
+  "price_history": [
+    {
+      "ts": 1354219200,
+      "price": 1,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1355342400,
+      "price": 1,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1355342400,
+      "price": null,
+      "shop": null
+    },
+    {
+      "ts": 1394740800,
+      "price": 1,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1395345600,
+      "price": 1,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1395345600,
+      "price": null,
+      "shop": null
+    },
+    {
+      "ts": 1403140562,
+      "price": 9.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1403215461,
+      "price": 4.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1404160587,
+      "price": 9.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1405944356,
+      "price": 2.49,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1406117159,
+      "price": 9.95,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1407146809,
+      "price": 19.99,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1408284737,
+      "price": 4.99,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1408622669,
+      "price": 4.14,
+      "shop": "GamersGate UK"
+    },
+    {
+      "ts": 1408968271,
+      "price": 16.02,
+      "shop": "GamersGate UK"
+    },
+    {
+      "ts": 1410186196,
+      "price": 9.24,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1410279172,
+      "price": 36.99,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1413806675,
+      "price": 4.01,
+      "shop": "GamersGate UK"
+    },
+    {
+      "ts": 1414065877,
+      "price": 16.02,
+      "shop": "GamersGate UK"
+    },
+    {
+      "ts": 1414584259,
+      "price": 4.01,
+      "shop": "GamersGate UK"
+    },
+    {
+      "ts": 1414757063,
+      "price": 16.02,
+      "shop": "GamersGate UK"
+    },
+    {
+      "ts": 1415710926,
+      "price": 4.01,
+      "shop": "GamersGate UK"
+    },
+    {
+      "ts": 1415883674,
+      "price": 15.7,
+      "shop": "GamersGate UK"
+    },
+    {
+      "ts": 1416157809,
+      "price": 4.99,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1416252772,
+      "price": 19.99,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1417058382,
+      "price": 2.49,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1417552713,
+      "price": 9.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1417784531,
+      "price": 3.9,
+      "shop": "GamersGate UK"
+    },
+    {
+      "ts": 1417957268,
+      "price": 15.64,
+      "shop": "GamersGate UK"
+    },
+    {
+      "ts": 1418933920,
+      "price": 4.99,
+      "shop": "Amazon.com"
+    },
+    {
+      "ts": 1419069735,
+      "price": 3.91,
+      "shop": "GamersGate UK"
+    },
+    {
+      "ts": 1419260468,
+      "price": 15.31,
+      "shop": "GamersGate UK"
+    },
+    {
+      "ts": 1419618750,
+      "price": 2.49,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1419791435,
+      "price": 4.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1420057644,
+      "price": 2.49,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1420290072,
+      "price": 3.82,
+      "shop": "GamersGate UK"
+    },
+    {
+      "ts": 1420462868,
+      "price": 15.04,
+      "shop": "GamersGate UK"
+    },
+    {
+      "ts": 1420722088,
+      "price": 3.79,
+      "shop": "GamersGate UK"
+    },
+    {
+      "ts": 1420894871,
+      "price": 15.24,
+      "shop": "GamersGate UK"
+    },
+    {
+      "ts": 1425049657,
+      "price": 9.99,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1425319885,
+      "price": 19.99,
+      "shop": "Green Man Gaming"
+    },
+    {
+      "ts": 1427398986,
+      "price": 2.49,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1427738825,
+      "price": 9.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1432658435,
+      "price": 4.42,
+      "shop": "Gamesplanet FR"
+    },
+    {
+      "ts": 1432836035,
+      "price": 1,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1433440835,
+      "price": 4.42,
+      "shop": "Gamesplanet FR"
+    },
+    {
+      "ts": 1434382442,
+      "price": 1,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1435600800,
+      "price": 4.41,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1439399284,
+      "price": 5,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1440072278,
+      "price": 19.99,
+      "shop": "GamersGate"
+    },
+    {
+      "ts": 1440696543,
+      "price": 2.49,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1441051297,
+      "price": 9.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1441386600,
+      "price": 2.49,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1441591631,
+      "price": 4.54,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1441645712,
+      "price": 9.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1441991572,
+      "price": 2.49,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1442016522,
+      "price": 4.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1442250598,
+      "price": 19.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1443391631,
+      "price": 19.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1443391631,
+      "price": null,
+      "shop": null
+    },
+    {
+      "ts": 1444810029,
+      "price": 13.34,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1444946886,
+      "price": 3.69,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1445249285,
+      "price": 4.34,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1451369316,
+      "price": 3.68,
+      "shop": "Funstock Digital"
+    },
+    {
+      "ts": 1451898430,
+      "price": 3.53,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1452467226,
+      "price": 4.44,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1455836862,
+      "price": 3.56,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1456096057,
+      "price": 4.51,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1456477743,
+      "price": 3.48,
+      "shop": "Funstock Digital"
+    },
+    {
+      "ts": 1456499338,
+      "price": 3.28,
+      "shop": "Funstock Digital"
+    },
+    {
+      "ts": 1456826986,
+      "price": 14.45,
+      "shop": "Funstock Digital"
+    },
+    {
+      "ts": 1457634572,
+      "price": 4.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1457980695,
+      "price": 19.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1458256000,
+      "price": 4.99,
+      "shop": "Games Republic"
+    },
+    {
+      "ts": 1458295736,
+      "price": 3.56,
+      "shop": "Funstock Digital"
+    },
+    {
+      "ts": 1458673399,
+      "price": 1,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1459969200,
+      "price": 4.26,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1468656542,
+      "price": 11.84,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1470045966,
+      "price": 3.28,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1470611838,
+      "price": 11.98,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1473613917,
+      "price": 4.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1473692899,
+      "price": 3.28,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1474236500,
+      "price": 11.18,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1474564588,
+      "price": 4.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1474909884,
+      "price": 19.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1475604000,
+      "price": 1,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1476813600,
+      "price": 11.18,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1477199901,
+      "price": 9.99,
+      "shop": "Gamestop"
+    },
+    {
+      "ts": 1478804616,
+      "price": 4.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1479060919,
+      "price": 4.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1479060919,
+      "price": null,
+      "shop": null
+    },
+    {
+      "ts": 1479799188,
+      "price": 2.49,
+      "shop": "Gamestop"
+    },
+    {
+      "ts": 1480486699,
+      "price": 9.99,
+      "shop": "Gamestop"
+    },
+    {
+      "ts": 1481572011,
+      "price": 4.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1482172799,
+      "price": 19.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1482301098,
+      "price": 2.49,
+      "shop": "Gamestop"
+    },
+    {
+      "ts": 1482888059,
+      "price": 4.99,
+      "shop": "Bundle Stars"
+    },
+    {
+      "ts": 1483575809,
+      "price": 19.99,
+      "shop": "Bundle Stars"
+    },
+    {
+      "ts": 1484850040,
+      "price": 4.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1485530619,
+      "price": 4.99,
+      "shop": "Bundle Stars"
+    },
+    {
+      "ts": 1485649287,
+      "price": 19.99,
+      "shop": "Bundle Stars"
+    },
+    {
+      "ts": 1487089438,
+      "price": 4.99,
+      "shop": "Bundle Stars"
+    },
+    {
+      "ts": 1487273760,
+      "price": 4.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1487618948,
+      "price": 19.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1487891270,
+      "price": 3.17,
+      "shop": "Gamesplanet FR"
+    },
+    {
+      "ts": 1488064032,
+      "price": 12.55,
+      "shop": "Gamesplanet FR"
+    },
+    {
+      "ts": 1488218918,
+      "price": 4.99,
+      "shop": "WinGameStore"
+    },
+    {
+      "ts": 1488701165,
+      "price": 19.99,
+      "shop": "WinGameStore"
+    },
+    {
+      "ts": 1488922998,
+      "price": 13.99,
+      "shop": "Amazon.com"
+    },
+    {
+      "ts": 1489315375,
+      "price": 69.99,
+      "shop": "Amazon.com"
+    },
+    {
+      "ts": 1489964910,
+      "price": 3.46,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1490566091,
+      "price": 11.65,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1490865776,
+      "price": 4.99,
+      "shop": "Bundle Stars"
+    },
+    {
+      "ts": 1491519989,
+      "price": 4.99,
+      "shop": "WinGameStore"
+    },
+    {
+      "ts": 1491768996,
+      "price": 2.49,
+      "shop": "Gamestop"
+    },
+    {
+      "ts": 1492492642,
+      "price": 9.99,
+      "shop": "Gamestop"
+    },
+    {
+      "ts": 1492647933,
+      "price": 4.99,
+      "shop": "Bundle Stars"
+    },
+    {
+      "ts": 1492816895,
+      "price": 19.99,
+      "shop": "Bundle Stars"
+    },
+    {
+      "ts": 1494601569,
+      "price": 4.99,
+      "shop": "WinGameStore"
+    },
+    {
+      "ts": 1494869448,
+      "price": 4.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1495836537,
+      "price": 3.2,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1496009331,
+      "price": 11.67,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1496339377,
+      "price": 4.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1496683191,
+      "price": 19.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1497027850,
+      "price": 4.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1497369786,
+      "price": 9.99,
+      "shop": "Gamestop"
+    },
+    {
+      "ts": 1497637521,
+      "price": 2.49,
+      "shop": "Gamestop"
+    },
+    {
+      "ts": 1498565952,
+      "price": 9.99,
+      "shop": "Gamestop"
+    },
+    {
+      "ts": 1501175941,
+      "price": 4.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1501521539,
+      "price": 19.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1502120270,
+      "price": 4.99,
+      "shop": "Bundle Stars"
+    },
+    {
+      "ts": 1502702576,
+      "price": 3.21,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1503273194,
+      "price": 11.84,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1504145195,
+      "price": 4.99,
+      "shop": "WinGameStore"
+    },
+    {
+      "ts": 1504809701,
+      "price": 4.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1505150485,
+      "price": 19.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1505437572,
+      "price": 2.49,
+      "shop": "WinGameStore"
+    },
+    {
+      "ts": 1506117964,
+      "price": 9.99,
+      "shop": "WinGameStore"
+    },
+    {
+      "ts": 1510333604,
+      "price": 2.49,
+      "shop": "WinGameStore"
+    },
+    {
+      "ts": 1510959976,
+      "price": 9.99,
+      "shop": "WinGameStore"
+    },
+    {
+      "ts": 1511305709,
+      "price": 3.39,
+      "shop": "WinGameStore"
+    },
+    {
+      "ts": 1511896157,
+      "price": 9.99,
+      "shop": "WinGameStore"
+    },
+    {
+      "ts": 1513295400,
+      "price": 4.55,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1513553139,
+      "price": 12.15,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1513910544,
+      "price": 6.79,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1515152262,
+      "price": 19.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1516300460,
+      "price": 6.79,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1517250097,
+      "price": 19.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1517602885,
+      "price": 12.57,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1517606650,
+      "price": 6.79,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1518193503,
+      "price": 19.99,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1519160949,
+      "price": 2.49,
+      "shop": "WinGameStore"
+    },
+    {
+      "ts": 1519686377,
+      "price": 9.99,
+      "shop": "WinGameStore"
+    },
+    {
+      "ts": 1519928827,
+      "price": 6.79,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1520274193,
+      "price": 19.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1520587122,
+      "price": 4.7,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1520759345,
+      "price": 12.82,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1521155273,
+      "price": 3.39,
+      "shop": "WinGameStore"
+    },
+    {
+      "ts": 1521843394,
+      "price": 9.99,
+      "shop": "WinGameStore"
+    },
+    {
+      "ts": 1523871349,
+      "price": 4.86,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1523954396,
+      "price": 4.77,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1524040339,
+      "price": 4.78,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1524387562,
+      "price": 4.68,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1524472697,
+      "price": 11.91,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1525883592,
+      "price": 6.79,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1527085035,
+      "price": 19.99,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1527184158,
+      "price": 6.79,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1527528684,
+      "price": 19.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1528927679,
+      "price": 3.39,
+      "shop": "WinGameStore"
+    },
+    {
+      "ts": 1529656010,
+      "price": 3.3,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1529946603,
+      "price": 4.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1530875379,
+      "price": 19.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1531151188,
+      "price": 4.99,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1531755437,
+      "price": 19.99,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1532333860,
+      "price": 19.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1532334070,
+      "price": 3.27,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1532902825,
+      "price": 11.69,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1533544757,
+      "price": 3.8,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1533549018,
+      "price": 3.24,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1533631051,
+      "price": 3.09,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1533717426,
+      "price": 3.18,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1534066692,
+      "price": 3.05,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1534150251,
+      "price": 11.8,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1535657600,
+      "price": 4.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1536255507,
+      "price": 11.8,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1536861693,
+      "price": 4.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1537205217,
+      "price": 11.8,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1539142693,
+      "price": 9.49,
+      "shop": "WinGameStore"
+    },
+    {
+      "ts": 1539259232,
+      "price": 9.44,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1540282107,
+      "price": 6.59,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1540282118,
+      "price": 3.43,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1540282131,
+      "price": 3.23,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1540541499,
+      "price": 3.43,
+      "shop": "Gamesplanet FR"
+    },
+    {
+      "ts": 1540541543,
+      "price": 4.99,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1541003121,
+      "price": 9.44,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1542769530,
+      "price": 4.5,
+      "shop": "2Game"
+    },
+    {
+      "ts": 1542776810,
+      "price": 2.88,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1543462060,
+      "price": 4.5,
+      "shop": "2Game"
+    },
+    {
+      "ts": 1543462715,
+      "price": 9.32,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1549304070,
+      "price": 6.79,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1549987837,
+      "price": 6.79,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1550480801,
+      "price": 4.51,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1550480830,
+      "price": 4.44,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1551085692,
+      "price": 4.53,
+      "shop": "Gamesplanet FR"
+    },
+    {
+      "ts": 1551118029,
+      "price": 6.79,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1551723027,
+      "price": 9.32,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1552583957,
+      "price": 4.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1553188879,
+      "price": 6.79,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1554106233,
+      "price": 3.65,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1554106294,
+      "price": 3.27,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1554192568,
+      "price": 3.13,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1554711123,
+      "price": 3.35,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1554711130,
+      "price": 3.35,
+      "shop": "Gamesplanet FR"
+    },
+    {
+      "ts": 1554711168,
+      "price": 9.32,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1555517802,
+      "price": 4.59,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1556118127,
+      "price": 9.32,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1557248821,
+      "price": 4.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1557428759,
+      "price": 9.24,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1557429316,
+      "price": 9.32,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1557762031,
+      "price": 4.99,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1558364669,
+      "price": 4.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1558371866,
+      "price": 9.32,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1558634889,
+      "price": 4.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1558652433,
+      "price": 2.49,
+      "shop": "WinGameStore"
+    },
+    {
+      "ts": 1559430025,
+      "price": 3.16,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1559549216,
+      "price": 3.34,
+      "shop": "Gamesplanet FR"
+    },
+    {
+      "ts": 1559549275,
+      "price": 9.32,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1559895815,
+      "price": 4.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1560186084,
+      "price": 9.32,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1560758809,
+      "price": 6.17,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1560758811,
+      "price": 3.65,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1560758854,
+      "price": 3.19,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1561363626,
+      "price": 3.7,
+      "shop": "Gamesplanet FR"
+    },
+    {
+      "ts": 1561363673,
+      "price": 4.5,
+      "shop": "Gamesplanet US"
+    },
+    {
+      "ts": 1561363757,
+      "price": 9.32,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1561475832,
+      "price": 4.59,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1562080016,
+      "price": 9.32,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1562278648,
+      "price": 9.24,
+      "shop": "WinGameStore"
+    },
+    {
+      "ts": 1563404477,
+      "price": 9.33,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1563496231,
+      "price": 8.37,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1563505685,
+      "price": 4,
+      "shop": "2Game"
+    },
+    {
+      "ts": 1563506279,
+      "price": 2.51,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1563579191,
+      "price": 2.8,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1563986852,
+      "price": 2.58,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1564712083,
+      "price": 3.06,
+      "shop": "2Game EU"
+    },
+    {
+      "ts": 1564712084,
+      "price": 8.6,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1564761893,
+      "price": 9.69,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1564992412,
+      "price": 7.99,
+      "shop": "Gamesplanet US"
+    },
+    {
+      "ts": 1564992413,
+      "price": 4.4,
+      "shop": "Gamesplanet US"
+    },
+    {
+      "ts": 1564992717,
+      "price": 2.92,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1565078907,
+      "price": 2.89,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1565597390,
+      "price": 3.35,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1565600836,
+      "price": 9.69,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1565971520,
+      "price": 4.99,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1567177282,
+      "price": 9.69,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1567445551,
+      "price": 4.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1568048879,
+      "price": 9.69,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1568303125,
+      "price": 4.99,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1569312336,
+      "price": 3.29,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1569312365,
+      "price": 2.83,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1569917211,
+      "price": 3.26,
+      "shop": "Gamesplanet FR"
+    },
+    {
+      "ts": 1569917256,
+      "price": 9.69,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1572077151,
+      "price": 4.99,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1572077153,
+      "price": 2.77,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1572077185,
+      "price": 2.47,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1572476766,
+      "price": 2.78,
+      "shop": "Gamesplanet FR"
+    },
+    {
+      "ts": 1572476776,
+      "price": 3.85,
+      "shop": "Gamesplanet US"
+    },
+    {
+      "ts": 1572476779,
+      "price": 9.69,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1573841350,
+      "price": 4.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1574014015,
+      "price": 9.24,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1574014737,
+      "price": 9.69,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1574792954,
+      "price": 3.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1574813105,
+      "price": 1.89,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1575505246,
+      "price": 2.36,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1575918006,
+      "price": 1.99,
+      "shop": "WinGameStore"
+    },
+    {
+      "ts": 1576108881,
+      "price": 2.38,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1576119937,
+      "price": 3.6,
+      "shop": "2Game"
+    },
+    {
+      "ts": 1576119940,
+      "price": 8.29,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1576780212,
+      "price": 3.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1576800589,
+      "price": 2.89,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1576800599,
+      "price": 2.64,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1576804005,
+      "price": 1.87,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1578011105,
+      "price": 2.64,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1578011179,
+      "price": 2.92,
+      "shop": "Gamesplanet FR"
+    },
+    {
+      "ts": 1578011202,
+      "price": 3.99,
+      "shop": "Gamesplanet US"
+    },
+    {
+      "ts": 1578013805,
+      "price": 8.37,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1579815644,
+      "price": 7.39,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1579815756,
+      "price": 3.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1580160950,
+      "price": 8.37,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1581124490,
+      "price": 5.69,
+      "shop": "Allyouplay"
+    },
+    {
+      "ts": 1581124491,
+      "price": 2.84,
+      "shop": "Allyouplay"
+    },
+    {
+      "ts": 1581133100,
+      "price": 5.69,
+      "shop": "Allyouplay"
+    },
+    {
+      "ts": 1581158260,
+      "price": 8.37,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1587506822,
+      "price": 5.97,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1587506823,
+      "price": 3.25,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1587575397,
+      "price": 2.84,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1587748277,
+      "price": 3.22,
+      "shop": "Gamesplanet FR"
+    },
+    {
+      "ts": 1587748288,
+      "price": 3.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1587749063,
+      "price": 7.39,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1587749067,
+      "price": 8.37,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1589477396,
+      "price": 3.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1590105985,
+      "price": 2.74,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1590106000,
+      "price": 2.32,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1590368633,
+      "price": 2.25,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1590710587,
+      "price": 2.32,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1590710800,
+      "price": 2.75,
+      "shop": "Gamesplanet FR"
+    },
+    {
+      "ts": 1590710828,
+      "price": 3.85,
+      "shop": "Gamesplanet US"
+    },
+    {
+      "ts": 1590714303,
+      "price": 8.37,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1593106769,
+      "price": 3.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1594317287,
+      "price": 8.37,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1594598822,
+      "price": 6.67,
+      "shop": "Gamesplanet US"
+    },
+    {
+      "ts": 1594598823,
+      "price": 3.69,
+      "shop": "Gamesplanet US"
+    },
+    {
+      "ts": 1594598865,
+      "price": 2.71,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1594598872,
+      "price": 2.32,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1595203678,
+      "price": 9.83,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1595492041,
+      "price": 4.6,
+      "shop": "Gamesplanet US"
+    },
+    {
+      "ts": 1595493216,
+      "price": 3.46,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1595493224,
+      "price": 2.93,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1595578527,
+      "price": 3.27,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1596360352,
+      "price": 3.01,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1596443475,
+      "price": 3.52,
+      "shop": "Gamesplanet FR"
+    },
+    {
+      "ts": 1596443495,
+      "price": 4.59,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1597619580,
+      "price": 9.84,
+      "shop": "2Game UK"
+    },
+    {
+      "ts": 1597968370,
+      "price": 1.77,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1598918766,
+      "price": 2.66,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1598919028,
+      "price": 3.1,
+      "shop": "Gamesplanet FR"
+    },
+    {
+      "ts": 1598919060,
+      "price": 3.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1599153184,
+      "price": 8.37,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1599759536,
+      "price": 3.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1600042170,
+      "price": 3.08,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1600042217,
+      "price": 2.54,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1600045483,
+      "price": 1.75,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1600906101,
+      "price": 2.54,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1600906453,
+      "price": 3.04,
+      "shop": "Gamesplanet FR"
+    },
+    {
+      "ts": 1600945429,
+      "price": 8.37,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1602263376,
+      "price": 3.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1603127752,
+      "price": 8.37,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1603734937,
+      "price": 3.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1604016448,
+      "price": 3.85,
+      "shop": "Gamesplanet US"
+    },
+    {
+      "ts": 1604016510,
+      "price": 2.94,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1604016520,
+      "price": 2.46,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1604624714,
+      "price": 1.77,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1605225967,
+      "price": 6.63,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1605247423,
+      "price": 8.37,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1605947314,
+      "price": 3.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1606262767,
+      "price": 3.69,
+      "shop": "Gamesplanet US"
+    },
+    {
+      "ts": 1606262948,
+      "price": 2.84,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1606262976,
+      "price": 2.47,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1606266336,
+      "price": 1.77,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1606867521,
+      "price": 2.47,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1606867882,
+      "price": 2.87,
+      "shop": "Gamesplanet FR"
+    },
+    {
+      "ts": 1606871105,
+      "price": 8.37,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1608664761,
+      "price": 3.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1608685358,
+      "price": 3.59,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1608685483,
+      "price": 1.73,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1609286758,
+      "price": 2.72,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1609718984,
+      "price": 3.16,
+      "shop": "Gamesplanet FR"
+    },
+    {
+      "ts": 1609718988,
+      "price": 3.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1609879930,
+      "price": 8.37,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1610699192,
+      "price": 3.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1611194844,
+      "price": 3.98,
+      "shop": "DLGamer.com"
+    },
+    {
+      "ts": 1611198220,
+      "price": 3.6,
+      "shop": "2Game"
+    },
+    {
+      "ts": 1612148594,
+      "price": 3.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1612203801,
+      "price": 8.37,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1613074938,
+      "price": 7.39,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1613075732,
+      "price": 3.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1613426773,
+      "price": 8.37,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1622135947,
+      "price": 3.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1622138575,
+      "price": 3.6,
+      "shop": "2Game"
+    },
+    {
+      "ts": 1622221651,
+      "price": 2.93,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1622221654,
+      "price": 2.63,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1622239494,
+      "price": 2.59,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1622858531,
+      "price": 8.37,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1625818039,
+      "price": 5.5,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1625818134,
+      "price": 2.96,
+      "shop": "Gamesplanet FR"
+    },
+    {
+      "ts": 1625822716,
+      "price": 2.66,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1626426938,
+      "price": 3.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1626802227,
+      "price": 8.37,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1628212010,
+      "price": 3.79,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1628244054,
+      "price": 7.02,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1628848054,
+      "price": 2.93,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1628848101,
+      "price": 2.66,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1628932759,
+      "price": 2.62,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1629711796,
+      "price": 2.93,
+      "shop": "Gamesplanet FR"
+    },
+    {
+      "ts": 1629711819,
+      "price": 2.93,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1629711867,
+      "price": 3.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1630953723,
+      "price": 8.37,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1632416514,
+      "price": 3.49,
+      "shop": "Newegg"
+    },
+    {
+      "ts": 1632416852,
+      "price": 2.8,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1632416896,
+      "price": 2.52,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1632420461,
+      "price": 1.65,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1633021424,
+      "price": 3.49,
+      "shop": "Newegg"
+    },
+    {
+      "ts": 1633025306,
+      "price": 3.6,
+      "shop": "2Game"
+    },
+    {
+      "ts": 1633043227,
+      "price": 8.37,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1637778524,
+      "price": 3.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1637795400,
+      "price": 3.19,
+      "shop": "Newegg"
+    },
+    {
+      "ts": 1637795621,
+      "price": 1.58,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1638382287,
+      "price": 2.65,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1638382409,
+      "price": 2.95,
+      "shop": "Gamesplanet FR"
+    },
+    {
+      "ts": 1638382437,
+      "price": 2.95,
+      "shop": "Gamesplanet DE"
+    },
+    {
+      "ts": 1638396608,
+      "price": 3.6,
+      "shop": "2Game"
+    },
+    {
+      "ts": 1638414606,
+      "price": 8.37,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1640197663,
+      "price": 3.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1640207275,
+      "price": 3.03,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1640207342,
+      "price": 2.06,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1641405809,
+      "price": 2.69,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1641406072,
+      "price": 2.93,
+      "shop": "Gamesplanet FR"
+    },
+    {
+      "ts": 1641406122,
+      "price": 3.6,
+      "shop": "2Game"
+    },
+    {
+      "ts": 1641439047,
+      "price": 4,
+      "shop": "DLGamer.com"
+    },
+    {
+      "ts": 1641440219,
+      "price": 7.39,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1641443717,
+      "price": 8.37,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1643335257,
+      "price": 3.99,
+      "shop": "Steam"
+    },
+    {
+      "ts": 1643336028,
+      "price": 3.19,
+      "shop": "Fanatical"
+    },
+    {
+      "ts": 1643336196,
+      "price": 1.57,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1643912181,
+      "price": 2.7,
+      "shop": "Gamesplanet UK"
+    },
+    {
+      "ts": 1643912301,
+      "price": 2.97,
+      "shop": "Gamesplanet FR"
+    },
+    {
+      "ts": 1643936045,
+      "price": 3.6,
+      "shop": "2Game"
+    },
+    {
+      "ts": 1643942918,
+      "price": 6.66,
+      "shop": "2Game"
+    },
+    {
+      "ts": 1643942919,
+      "price": 8.37,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1648062772,
+      "price": 3.99,
+      "shop": "Humble Store"
+    },
+    {
+      "ts": 1648229168,
+      "price": 8.37,
+      "shop": "Gamebillet"
+    },
+    {
+      "ts": 1651435949,
+      "price": 8.37,
+      "shop": "Gamebillet"
+    }
+  ]
+}
