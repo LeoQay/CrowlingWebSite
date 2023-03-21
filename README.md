@@ -1,1 +1,1 @@
-# Обкачка данных об играх с сайта магазина игр
+# Data analyze project of Crowling website of game store
