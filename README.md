@@ -1,3 +1,3 @@
 # Data analyze project of Crowling website of game store
 
-[Project description](homework.md)
+[Project description](/homework.md)
